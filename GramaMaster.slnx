@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="GramaMaster.API/GramaMaster.API.csproj" />
+  <Project Path="GramaMaster.Application/GramaMaster.Application.csproj" Id="fca12e9d-499f-46a3-a38a-0b98783ea320" />
+  <Project Path="GramaMaster.Domain/GramaMaster.Domain.csproj" />
+  <Project Path="GramaMaster.Infrastructure/GramaMaster.Infrastructure.csproj" Id="5228a750-bb09-4edb-8ccc-3fc8a4a685ee" />
+</Solution>

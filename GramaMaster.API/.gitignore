@@ -1,0 +1,44 @@
+﻿# ── Build output ─────────────────────────────────
+bin/
+obj/
+
+# ── Visual Studio files ───────────────────────────
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ── ASP.NET Core ──────────────────────────────────
+appsettings.Development.json
+
+# ── Environment & Secrets ─────────────────────────
+appsettings.json
+*.env
+.env
+secrets.json
+
+# ── Rider / JetBrains ─────────────────────────────
+.idea/
+
+# ── VS Code ───────────────────────────────────────
+.vscode/
+
+# ── OS files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── NuGet ─────────────────────────────────────────
+*.nupkg
+.nuget/
+packages/
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
+
+# ── Test results ──────────────────────────────────
+TestResults/
+coverage/

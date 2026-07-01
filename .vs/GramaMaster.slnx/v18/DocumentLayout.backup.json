@@ -1,0 +1,475 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GramaMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\answersubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\answersubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\answersubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\answersubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\baseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\baseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\chatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\chatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\chatsessionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\chatsessionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\contestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\contestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\examattemptconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\examattemptconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\contest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\contest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\examattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\examattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\grammarruleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\grammarruleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\problemoptionsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\problemoptionsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\problemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\problemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\grammarrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\grammarrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\problemoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\problemoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\teamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\teamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\topicconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\topicconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\teammembersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\teammembersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|d:\\gramamaster\\gramamaster.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5228A750-BB09-4EDB-8CCC-3FC8A4A685EE}|GramaMaster.Infrastructure\\GramaMaster.Infrastructure.csproj|solutionrelative:gramamaster.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\curriculum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\curriculum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnswerSubmission.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\AnswerSubmission.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\AnswerSubmission.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\AnswerSubmission.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\AnswerSubmission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T12:31:36.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnswerSubmissionConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\AnswerSubmissionConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\AnswerSubmissionConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\AnswerSubmissionConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\AnswerSubmissionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T12:31:33.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatSession.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T11:53:12.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ChatConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\ChatConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ChatConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\ChatConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T11:48:46.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatSessionConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ChatSessionConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\ChatSessionConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ChatSessionConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\ChatSessionConfiguration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T11:48:11.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Problem.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Problem.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Problem.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Problem.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:18:15.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T11:48:25.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContestConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ContestConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\ContestConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ContestConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\ContestConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T10:38:41.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\BaseEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\BaseEntityConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\BaseEntityConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\BaseEntityConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:17:40.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contest.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Contest.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Contest.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Contest.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Contest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T10:38:54.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExamAttempt.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T10:27:42.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExamAttemptConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ExamAttemptConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\ExamAttemptConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ExamAttemptConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\ExamAttemptConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T10:25:20.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Team.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Team.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Team.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T08:01:41.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamMember.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\TeamMember.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\TeamMember.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\TeamMember.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\TeamMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:43:59.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GrammarRuleConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\GrammarRuleConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\GrammarRuleConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\GrammarRuleConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\GrammarRuleConfiguration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:35:23.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GrammarRule.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T10:17:03.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProblemConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ProblemConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\ProblemConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ProblemConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\ProblemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:18:00.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProblemOptionsConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ProblemOptionsConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\ProblemOptionsConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\ProblemOptionsConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\ProblemOptionsConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:08:41.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Topic.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Topic.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Topic.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T06:55:16.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProblemOptions.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ProblemOptions.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ProblemOptions.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ProblemOptions.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ProblemOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:09:36.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TeamMembersConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TeamMembersConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\TeamMembersConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TeamMembersConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\TeamMembersConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:26:05.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TeacherConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TeacherConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\TeacherConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TeacherConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\TeacherConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:02:38.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TopicConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TopicConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\TopicConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TopicConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\TopicConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T06:55:09.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TeamConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TeamConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\TeamConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\TeamConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\TeamConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:12:54.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StudentConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\StudentConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\StudentConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\StudentConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\StudentConfiguration.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T06:45:52.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "GramaMaster.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:02:34.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Curriculum.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:05:53.946Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
