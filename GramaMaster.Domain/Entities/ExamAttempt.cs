@@ -11,7 +11,7 @@ namespace GramaMaster.Domain.Entities
         public Guid ContestId { get; set; }
         public Contest Contest { get; set; } = null!;
         public DateTime StartedAt { get; set; }
-        public DateTime SubmittedAt { get; set; }
+        public DateTime? SubmittedAt { get; set; }
         public double Score { get; set; }
         public int TotalQuestions { get; set; }
         public ICollection<AnswerSubmission> AnswerSubmissions { get; set; } = new List<AnswerSubmission>();
