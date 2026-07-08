@@ -8,14 +8,14 @@
     {
         public interface IContestRepository
         {
-            Task<List<Contest>> GetGlobalContestsAsync(QueryDto query);
-            Task<List<Contest>> GetTeamContestsAsync(Guid teamId);
-            Task<Contest?> GetContestWithProblemsAsync(Guid contestId);
-            Task<bool> IsContestRunningAsync(Guid contestId);
-            Task<List<Contest>> GetUpcomingContestsAsync(QueryDto query);
-            Task<List<Contest>> GetRunningContestsAsync(QueryDto query);
-            Task<List<Contest>> GetCompletedContestsAsync(QueryDto query);
-            Task<Contest?> GetContestWithAttemptsAsync(Guid contestId);
+        Task<List<Contest>> GetGlobalContestsAsync(QueryDto query);
+        Task<List<Contest>> GetTeamContestsAsync(Guid teamId);
+        Task<Contest?> GetContestWithProblemsAsync(Guid contestId);
+        Task<bool> IsContestRunningAsync(Guid contestId);
+        Task<List<Contest>> GetUpcomingContestsAsync(QueryDto query);
+        Task<List<Contest>> GetRunningContestsAsync(QueryDto query);
+        Task<List<Contest>> GetCompletedContestsAsync(QueryDto query);
+        Task<Contest?> GetContestWithAttemptsAsync(Guid contestId);
 
         Task<List<Contest>> GetContestsByCurriculumAsync(Guid curriculumId);
 

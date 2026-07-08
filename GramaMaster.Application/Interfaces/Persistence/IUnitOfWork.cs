@@ -21,8 +21,6 @@ namespace GramaMaster.Application.Interfaces.Persistence
 
         IGenericRepository<GrammarRule> GrammarRules { get; }
 
-        IGenericRepository<ProblemOptions> ProblemOptions { get; }
-
         IUserRepository Users { get; }
 
         IContestRepository Contests { get; }
