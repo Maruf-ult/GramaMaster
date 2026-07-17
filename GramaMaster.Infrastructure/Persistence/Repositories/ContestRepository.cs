@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace GramaMaster.Infrastructure.Persistence.Repositories
 {
@@ -21,21 +22,67 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
 
         public async Task<List<Contest>> GetGlobalContestsAsync(QueryDto query)
         {
-            return await _dbContext.Contests
+            IQueryable<Contest> contests = _dbContext.Contests
                 .Include(x => x.Curriculum)
                 .Include(x => x.CreatedByUser)
-                .Where(x => !x.IsDeleted && x.ContestType == ContestType.Global)
-                .OrderByDescending(x => x.StartAt)
-                .ToListAsync();
+                .Where(x => !x.IsDeleted && x.ContestType == ContestType.Global);
+
+
+            if (!string.IsNullOrWhiteSpace(query.Search))
+            {
+                contests = contests.Where(x =>
+                x.Title.Contains(query.Search) ||
+                x.Description.Contains(query.Search));
+            }
+
+            contests = query.SortBy?.ToLower() switch
+            {
+                "title" => contests.OrderBy(x => x.Title),
+                "title_desc" => contests.OrderByDescending(x => x.Title),
+                "start" => contests.OrderBy(x => x.StartAt),
+                "start_desc" => contests.OrderByDescending(x => x.StartAt),
+                "end" => contests.OrderBy(x => x.EndAt),
+                "end_desc" => contests.OrderByDescending(x => x.EndAt),
+                _ => contests.OrderByDescending(x => x.StartAt)
+            };
+
+            contests = contests
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize);
+
+            return await contests.ToListAsync();
         }
-        public async Task<List<Contest>> GetTeamContestsAsync(Guid teamId)
+        public async Task<List<Contest>> GetTeamContestsAsync(Guid teamId,QueryDto query)
         {
-            return await _dbContext.Contests
+            IQueryable<Contest>contests = _dbContext.Contests
                 .Include(x => x.Team)
                 .Include(x => x.CreatedByUser)
-                .Where(x => !x.IsDeleted && x.TeamId == teamId)
-                .OrderByDescending(x => x.StartAt)
-                .ToListAsync();
+                .Where(x => !x.IsDeleted && x.TeamId == teamId);
+
+
+            if (!string.IsNullOrWhiteSpace(query.Search))
+            {
+                contests = contests.Where(x =>
+                x.Title.Contains(query.Search) ||
+                x.Description.Contains(query.Search));
+            }
+
+            contests = query.SortBy?.ToLower() switch
+            {
+                "title" => contests.OrderBy(x => x.Title),
+                "title_desc" => contests.OrderByDescending(x => x.Title),
+                "start" => contests.OrderBy(x => x.StartAt),
+                "start_desc" => contests.OrderByDescending(x => x.StartAt),
+                "end" => contests.OrderBy(x => x.EndAt),
+                "end_desc" => contests.OrderByDescending(x => x.EndAt),
+                _ => contests.OrderByDescending(x => x.StartAt)
+            };
+
+            contests = contests
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize);
+
+            return await contests.ToListAsync();
         }
         public async Task<Contest?> GetContestWithProblemsAsync(Guid contestId)
         {
@@ -56,7 +103,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 && x.StartAt <= now && x.EndAt >= now);
 
         }
-        public async Task<List<Contest>> GetUpcomingContestsAsync(QueryDto query)
+        public async Task<List<Contest>> GetUpcomingContestsAsync()
         {
             var now = DateTime.UtcNow;
 
@@ -69,7 +116,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .ToListAsync();
         }
 
-        public async Task<List<Contest>> GetRunningContestsAsync(QueryDto query)
+        public async Task<List<Contest>> GetRunningContestsAsync()
         {
             var now = DateTime.UtcNow;
 
@@ -86,13 +133,37 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
         {
             var now = DateTime.UtcNow;
 
-            return await _dbContext.Contests
+            IQueryable<Contest> contests = _dbContext.Contests
                 .Include(x => x.Curriculum)
                 .Include(x => x.CreatedByUser)
                 .Include(x => x.Team)
-                .Where(x => !x.IsDeleted && x.EndAt>now)
-                .OrderBy(x => x.StartAt)
-                .ToListAsync();
+                .Where(x => !x.IsDeleted && x.EndAt > now);
+
+
+            if (!string.IsNullOrWhiteSpace(query.Search))
+            {
+                contests = contests.Where(x =>
+                x.Title.Contains(query.Search) ||
+                x.Description.Contains(query.Search));
+            }
+
+            contests = query.SortBy?.ToLower() switch
+            {
+                "title" => contests.OrderBy(x => x.Title),
+                "title_desc" => contests.OrderByDescending(x => x.Title),
+                "start" => contests.OrderBy(x => x.StartAt),
+                "start_desc" => contests.OrderByDescending(x => x.StartAt),
+                "end" => contests.OrderBy(x => x.EndAt),
+                "end_desc" => contests.OrderByDescending(x => x.EndAt),
+                _ => contests.OrderByDescending(x => x.StartAt)
+            };
+
+            contests = contests
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize);
+
+            return await contests.ToListAsync();
+
         }
 
         public async Task<Contest?> GetContestWithAttemptsAsync(Guid contestId)
@@ -120,15 +191,39 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
 
         public async Task<List<Contest>> GetTeacherContestsAsync(Guid teacherUserId, QueryDto query)
         {
-            return await _dbContext.Contests
+            IQueryable<Contest> contests = _dbContext.Contests
                 .Include(x => x.Curriculum)
                 .Include(x => x.Team)
-                .Where(x => x.CreatedByUserId == teacherUserId && !x.IsDeleted)
-                .OrderByDescending(x => x.CreatedAt)
-                .ToListAsync();
+                .Where(x => x.CreatedByUserId == teacherUserId && !x.IsDeleted);
+
+
+            if (!string.IsNullOrWhiteSpace(query.Search))
+            {
+                contests = contests.Where(x =>
+                x.Title.Contains(query.Search) ||
+                x.Description.Contains(query.Search));
+            }
+
+            contests = query.SortBy?.ToLower() switch
+            {
+                "title" => contests.OrderBy(x => x.Title),
+                "title_desc" => contests.OrderByDescending(x => x.Title),
+                "created" => contests.OrderBy(x => x.CreatedAt),
+                "created_desc" => contests.OrderByDescending(x => x.CreatedAt),
+                "end" => contests.OrderBy(x => x.EndAt),
+                "end_desc" => contests.OrderByDescending(x => x.EndAt),
+                _ => contests.OrderByDescending(x => x.StartAt)
+            };
+
+            contests = contests
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize);
+
+            return await contests.ToListAsync();
+
         }
 
-        public async Task<List<Contest>> GetStudentAvailableContestsAsync(Guid studentId, QueryDto query)
+        public async Task<List<Contest>> GetStudentAvailableContestsAsync(Guid studentId)
         {
             var student = await _dbContext.Students.FirstOrDefaultAsync(x => x.Id == studentId);
             if (student == null)

@@ -1,4 +1,5 @@
-﻿using GramaMaster.Domain.Entities;
+﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -14,9 +15,9 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<User?> GetWithStudentAsync(Guid id);
 
         Task<User?> GetWithTeacherAsync(Guid id);
-        Task<List<User>> GetUsersByRoleAsync(UserRole role);
-        Task<List<Teacher>> GetTeachersAsync();
-        Task<List<Student>> GetStudentsAsync();
+        Task<List<User>> GetUsersByRoleAsync(UserRole role,QueryDto query);
+        Task<List<Teacher>> GetTeachersAsync(QueryDto query);
+        Task<List<Student>> GetStudentsAsync(QueryDto query);
 
 
     }

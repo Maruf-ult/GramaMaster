@@ -1,4 +1,5 @@
-﻿using GramaMaster.Application.Interfaces.Persistence;
+﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -80,15 +81,34 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             return await _dbContext.AnswerSubmissions.CountAsync(x => x.ExamAttemptId == attemptId && !x.IsDeleted && x.IsCorrect);
         }
 
-        public async Task<List<ExamAttempt>> GetLeaderboardAsync(Guid contestId)
+        public async Task<List<ExamAttempt>> GetLeaderboardAsync(Guid contestId,QueryDto query)
         {
-            return await _dbContext.ExamAttempts
+            IQueryable<ExamAttempt> examAttempts = _dbContext.ExamAttempts
                 .Include(x => x.Student)
                   .ThenInclude(x => x.User)
                 .Where(x => x.ContestId == contestId && !x.IsDeleted)
                 .OrderByDescending(x => x.Score)
-                .ThenBy(x => x.SubmittedAt)
-                .ToListAsync();
+                .ThenBy(x => x.SubmittedAt);
+
+            if (!string.IsNullOrWhiteSpace(query.Search))
+            {
+                examAttempts = examAttempts.Where(x =>
+                x.Contest.Description.Contains(query.Search));
+            }
+            examAttempts = query.SortBy?.ToLower() switch
+            {
+                "score" => examAttempts.OrderBy(x => x.Score),
+                "score_desc" => examAttempts.OrderByDescending(x => x.Score),
+                "submission" => examAttempts.OrderBy(x => x.SubmittedAt),
+                "submission_desc" => examAttempts.OrderByDescending(x => x.SubmittedAt),
+                _ => examAttempts.OrderByDescending(x => x.Score)
+            };
+
+            examAttempts = examAttempts
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize);
+
+            return await examAttempts.ToListAsync();
         }
 
         public async Task<bool> HasStudentAlreadyTakenContestAsync(Guid studentId, Guid contestId)
