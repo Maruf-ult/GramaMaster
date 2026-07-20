@@ -1,0 +1,16 @@
+D:\GramaMaster\GramaMaster.Application\bin\Debug\net10.0\GramaMaster.Application.deps.json
+D:\GramaMaster\GramaMaster.Application\bin\Debug\net10.0\GramaMaster.Application.dll
+D:\GramaMaster\GramaMaster.Application\bin\Debug\net10.0\GramaMaster.Application.pdb
+D:\GramaMaster\GramaMaster.Application\bin\Debug\net10.0\GramaMaster.Domain.dll
+D:\GramaMaster\GramaMaster.Application\bin\Debug\net10.0\GramaMaster.Domain.pdb
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.csproj.AssemblyReference.cache
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.AssemblyInfoInputs.cache
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.AssemblyInfo.cs
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.csproj.CoreCompileInputs.cache
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.sourcelink.json
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMas.9DCFCA7C.Up2Date
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.dll
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\refint\GramaMaster.Application.dll
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\GramaMaster.Application.pdb
+D:\GramaMaster\GramaMaster.Application\obj\Debug\net10.0\ref\GramaMaster.Application.dll

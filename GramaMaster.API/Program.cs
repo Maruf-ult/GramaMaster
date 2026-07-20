@@ -1,38 +1,34 @@
+using GramaMaster.API.ExceptionHandler;
+using GramaMaster.API.Extensions;
 using GramaMaster.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace GramaMaster.API
+namespace GramaMaster.API;
+
+public class Program
 {
-    public class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddControllers();
+
+        builder.Services.AddJwtAuthentication(builder.Configuration);
+        builder.Services.AddSwaggerDocumentation();
+
+        builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+        builder.Services.AddProblemDetails();
+
+        builder.Services.AddDbContext<GramaMasterDbContext>(options =>
         {
-            var builder = WebApplication.CreateBuilder(args);
+            options.UseNpgsql(
+                builder.Configuration.GetConnectionString("DbCon"));
+        });
 
-            // Add services to the container.
+        var app = builder.Build();
 
-            builder.Services.AddControllers();
+        app.UseApplicationMiddlewares();
 
-            builder.Services.AddDbContext<GramaMasterDbContext>(options =>
-            {
-                options.UseNpgsql(builder.Configuration.GetConnectionString("DbCon"));
-            }
-            );
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-
-            
-
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
-            app.MapControllers();
-
-            app.Run();
-        }
+        app.Run();
     }
 }
