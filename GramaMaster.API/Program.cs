@@ -1,3 +1,4 @@
+using FluentValidation;
 using GramaMaster.API.ExceptionHandler;
 using GramaMaster.API.Extensions;
 using GramaMaster.Infrastructure.Data;
@@ -12,7 +13,7 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddControllers();
-
+        builder.Services.AddValidatorsFromAssemblyContaining<Program>();
         builder.Services.AddJwtAuthentication(builder.Configuration);
         builder.Services.AddSwaggerDocumentation();
 

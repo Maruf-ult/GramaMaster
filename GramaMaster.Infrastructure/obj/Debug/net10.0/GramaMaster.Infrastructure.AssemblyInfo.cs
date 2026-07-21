@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GramaMaster.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5c3df17149c7e343b4f18c13790d77660bd6cb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c677e55e1a2b211bf4ed396c6aa9620a7f0f5c62")]
 [assembly: System.Reflection.AssemblyProductAttribute("GramaMaster.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GramaMaster.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

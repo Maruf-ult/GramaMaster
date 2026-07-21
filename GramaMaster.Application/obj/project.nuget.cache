@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UEpVu/oQAa8=",
+  "dgSpecHash": "aGEIfQcA7g0=",
   "success": true,
   "projectFilePath": "D:\\GramaMaster\\GramaMaster.Application\\GramaMaster.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\maruf\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\maruf\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\maruf\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
