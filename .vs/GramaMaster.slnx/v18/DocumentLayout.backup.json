@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "D:\\GramaMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\contests\\updatecontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\contests\\updatecontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\contests\\createcontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\contests\\createcontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\aiusagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\aiusagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\teacherdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\teacherdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\updatecontestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\updatecontestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\topics\\topicanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\topics\\topicanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\problems\\problemresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\problemresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\createcontestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\createcontestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\contest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\contest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\studentdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\studentdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\monthlyprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,28 +31,20 @@
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\topicstatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\studentdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\studentdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\teacherdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\teacherdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\analytics\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\analytics\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\ai\\generatequestionsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\ai\\generatequestionsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\weaktopicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\weaktopicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\generatequestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\generatequestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\topicrecommendationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\topicrecommendationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\weaktopicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\weaktopicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\aiexplanationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,60 +55,68 @@
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\aiquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\ai\\generatequestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\ai\\generatequestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\airequestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\airequestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\chats\\chatrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\chats\\chatrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\chats\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\chats\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\chats\\chathistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\chats\\chathistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\chats\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\chats\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\chats\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\chats\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\chats\\chatresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\chats\\chatresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\chats\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\chats\\chatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\exams\\submitexamvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\exams\\submitexamvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\answerreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\answerreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\examattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\examattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\examresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\examresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\submitexamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\submitexamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\startexamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\startexamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\examresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\examresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\answerreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\answerreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\exams\\examattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\exams\\examattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\practice\\practicesubmissionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -179,6 +139,10 @@
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\practice\\startpracticedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\examattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\examattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\problems\\generateaiproblemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\problems\\generateaiproblemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -199,10 +163,6 @@
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\practiceproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\problems\\problemoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\problemoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\problems\\problemdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\problemdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -217,6 +177,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\problems\\createproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\createproblemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\problems\\problemoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\problemoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\createcontestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\createcontestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\grammerrules\\updategrammarrulevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -243,12 +215,12 @@
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\curriculum\\curriculumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\topic\\updatetopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\topic\\updatetopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\topic\\createtopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\topic\\createtopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\topic\\updatetopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\topic\\updatetopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\topics\\topicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -261,6 +233,66 @@
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\topics\\createtopicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\topics\\createtopicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\topics\\topicanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\topics\\topicanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\curriculum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\curriculum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\grammarrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\grammarrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\contests\\updatecontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\contests\\updatecontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\contests\\createcontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\validators\\contests\\createcontestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\contests\\contestlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\contests\\contestlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\problems\\problemresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\problems\\problemresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|d:\\gramamaster\\gramamaster.domain\\entities\\contest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E384174A-031C-E88A-B01E-AD659B9F78E8}|GramaMaster.Domain\\GramaMaster.Domain.csproj|solutionrelative:gramamaster.domain\\entities\\contest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\validators\\team\\updateteamvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -375,71 +407,825 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateContestValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Title": "AIUsageDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIUsageDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\AIUsageDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIUsageDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\AIUsageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:07:40.138Z",
+              "WhenOpened": "2026-07-24T19:55:37.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ContestLeaderBoardDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAEAAAAAAAAAA==",
+              "Title": "MonthlyProgressDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:06:17.639Z",
+              "WhenOpened": "2026-07-23T18:40:15.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContestResultDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxIAAAAEAAAAAAAAAA==",
+              "Title": "StudentDashboardDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:06:49.715Z",
+              "WhenOpened": "2026-07-23T18:39:36.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ContestAnalyticsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Title": "TeacherDashboardDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:07:03.02Z",
+              "WhenOpened": "2026-07-23T18:39:25.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateContestValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "Title": "AdminDashboardDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:07:53.1Z",
+              "WhenOpened": "2026-07-23T18:39:13.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PerformanceTrendDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:40:06.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TopicStatisticsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:39:49.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenerateQuestionsValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:38:42.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenerateQuestionDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:37:20.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TopicRecommendationDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:37:59.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeakTopicDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:38:09.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AIExplanationDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:37:46.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AIQuestionDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:37:34.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:31:16.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChatSession.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ChatSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:49:13.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AiRequestLog.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\AiRequestLog.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\AiRequestLog.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\AiRequestLog.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\AiRequestLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:49:05.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatRequestValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:36:42.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChatMessageDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:35:52.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChatResponseDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:35:19.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChatRequestDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:35:31.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubmitExamValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:34:34.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChatHistoryDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:35:42.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubmitExamDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:32:24.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubmitAnswerDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:32:41.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StartExamDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:32:14.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LeaderBoardDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:33:37.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExamResultDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:33:09.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AnswerReviewDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:33:51.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExamAttemptDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:33:27.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PracticeSubmissionValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:31:43.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PracticeHistoryDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:16:09.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PracticeResultDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:16:01.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PracticeSubmissionDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:15:53.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StartPracticeDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:15:44.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ExamAttempt.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\ExamAttempt.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:31:28.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GenerateAIProblemValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:15:14.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateProblemValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:14:54.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GenerateAiProblemsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:14:17.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PracticeProblemDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:14:04.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateProblemValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:15:04.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProblemDetailsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:13:42.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProblemDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:13:31.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateProblemDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:13:23.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateProblemDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:13:14.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProblemOptionDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemOptionDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemOptionDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemOptionDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemOptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:13:54.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Problem.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Problem.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Problem.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Problem.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T18:28:28.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateContestDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:05:05.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateGrammarRuleValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:11:59.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CreateGrammarRuleValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:11:49.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GrammarRuleDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:11:05.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UpdateGrammarRuleDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:10:56.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CreateGrammarRuleDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:10:47.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CurriculumDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:10:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateTopicValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:09:19.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UpdateTopicValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:09:32.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "TopicDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T17:15:03.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UpdateTopicDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:08:37.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CreateTopicDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:08:26.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "TopicAnalyticsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T19:58:08.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Curriculum.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Curriculum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T16:58:24.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GrammarRule.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\GrammarRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T17:04:19.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Topic.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Topic.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Topic.cs",
+              "RelativeToolTip": "GramaMaster.Domain\\Entities\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T16:34:57.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ContestDetailsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:05:39.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
               "Title": "ContestCardDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestCardDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestCardDto.cs",
@@ -452,46 +1238,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 64,
               "Title": "ContestDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestDto.cs",
               "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestDto.cs",
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestDto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T18:05:28.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateContestDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\UpdateContestDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\UpdateContestDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\UpdateContestDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\UpdateContestDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 65,
+              "Title": "UpdateContestValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Contests\\UpdateContestValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:05:17.436Z",
+              "WhenOpened": "2026-07-23T18:07:53.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TopicAnalyticsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\TopicAnalyticsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 67,
+              "Title": "ContestAnalyticsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestAnalyticsDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T19:58:08.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T18:07:03.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 68,
+              "Title": "ContestResultDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestResultDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:06:49.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ContestLeaderBoardDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestLeaderBoardDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:06:17.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateContestValidator.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
+              "RelativeToolTip": "GramaMaster.Application\\Validators\\Contests\\CreateContestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:07:40.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
               "Title": "ContestListDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestListDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestListDto.cs",
@@ -499,12 +1320,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestListDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T19:52:14.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T19:52:14.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 71,
               "Title": "ProblemResultDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemResultDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemResultDto.cs",
@@ -512,25 +1332,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemResultDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T19:56:16.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T19:56:16.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateContestDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\CreateContestDto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA6wA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:05:05.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 72,
               "Title": "Contest.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Contest.cs",
               "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Contest.cs",
@@ -538,688 +1344,11 @@
               "RelativeToolTip": "GramaMaster.Domain\\Entities\\Contest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T19:28:04.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T19:28:04.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ContestDetailsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Contests\\ContestDetailsDto.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:05:39.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MonthlyProgressDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\MonthlyProgressDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:40:15.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PerformanceTrendDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\PerformanceTrendDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:40:06.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TopicStatisticsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\TopicStatisticsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:39:49.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StudentDashboardDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\StudentDashboardDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:39:36.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TeacherDashboardDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\TeacherDashboardDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:39:25.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AdminDashboardDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Analytics\\AdminDashboardDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:39:13.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GenerateQuestionsValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\AI\\GenerateQuestionsValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:38:42.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "WeakTopicDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\WeakTopicDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:38:09.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TopicRecommendationDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\TopicRecommendationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:37:59.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AIExplanationDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\AIExplanationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:37:46.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AIQuestionDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\AIQuestionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:37:34.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GenerateQuestionDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\AI\\GenerateQuestionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:37:20.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ChatRequestValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Chats\\ChatRequestValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:36:42.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ChatMessageDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatMessageDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:35:52.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ChatHistoryDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:35:42.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ChatRequestDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:35:31.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ChatResponseDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Chats\\ChatResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:35:19.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SubmitExamValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Exams\\SubmitExamValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:34:34.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AnswerReviewDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\AnswerReviewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:33:51.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "LeaderBoardDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\LeaderBoardDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:33:37.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ExamAttemptDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\ExamAttemptDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:33:27.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ExamResultDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\ExamResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:33:09.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SubmitAnswerDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\SubmitAnswerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:32:41.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "SubmitExamDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\SubmitExamDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:32:24.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "StartExamDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Exams\\StartExamDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:32:14.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "PracticeSubmissionValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Practice\\PracticeSubmissionValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:31:43.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "PracticeHistoryDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:16:09.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "PracticeResultDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:16:01.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "PracticeSubmissionDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeSubmissionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:15:53.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "StartPracticeDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\StartPracticeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:15:44.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "GenerateAIProblemValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Problems\\GenerateAIProblemValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:15:14.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "UpdateProblemValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Problems\\UpdateProblemValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:15:04.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CreateProblemValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Problems\\CreateProblemValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:14:54.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "GenerateAiProblemsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\GenerateAiProblemsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:14:17.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "PracticeProblemDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\PracticeProblemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:14:04.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ProblemOptionsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemOptionsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemOptionsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemOptionsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemOptionsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:13:54.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ProblemDetailsDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:13:42.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ProblemDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\ProblemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:13:31.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "UpdateProblemDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\UpdateProblemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:13:23.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "CreateProblemDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Problems\\CreateProblemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:13:14.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "UpdateGrammarRuleValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\GrammerRules\\UpdateGrammarRuleValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:11:59.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "CreateGrammarRuleValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\GrammerRules\\CreateGrammarRuleValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:11:49.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "GrammarRuleDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\GrammerRules\\GrammarRuleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:11:05.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "UpdateGrammarRuleDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\GrammerRules\\UpdateGrammarRuleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:10:56.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "CreateGrammarRuleDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\GrammerRules\\CreateGrammarRuleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:10:47.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "CurriculumDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Curriculum\\CurriculumDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:10:15.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "UpdateTopicValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Topic\\UpdateTopicValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:09:32.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "CreateTopicValidator.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Validators\\Topic\\CreateTopicValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:09:19.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "TopicDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\TopicDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:08:48.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "UpdateTopicDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\UpdateTopicDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:08:37.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "CreateTopicDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Topics\\CreateTopicDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:08:26.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 74,
               "Title": "CreateTeamValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Team\\CreateTeamValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Team\\CreateTeamValidator.cs",
@@ -1227,12 +1356,11 @@
               "RelativeToolTip": "GramaMaster.Application\\Validators\\Team\\CreateTeamValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:28:10.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:28:10.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 73,
               "Title": "UpdateTeamValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Team\\UpdateTeamValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Team\\UpdateTeamValidator.cs",
@@ -1240,12 +1368,11 @@
               "RelativeToolTip": "GramaMaster.Application\\Validators\\Team\\UpdateTeamValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:28:20.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:28:20.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 79,
               "Title": "CreateTeamDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Team\\CreateTeamDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Team\\CreateTeamDto.cs",
@@ -1253,12 +1380,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Team\\CreateTeamDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T16:49:57.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T16:49:57.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 75,
               "Title": "JoinTeamValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Team\\JoinTeamValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Team\\JoinTeamValidator.cs",
@@ -1266,12 +1392,11 @@
               "RelativeToolTip": "GramaMaster.Application\\Validators\\Team\\JoinTeamValidator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:28:30.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:28:30.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "JoinTeamDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Team\\JoinTeamDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Team\\JoinTeamDto.cs",
@@ -1279,12 +1404,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Team\\JoinTeamDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T16:50:20.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T16:50:20.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "TeamDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Team\\TeamDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Team\\TeamDto.cs",
@@ -1292,12 +1416,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Team\\TeamDto.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwBEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:26:02.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:26:02.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "Team.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\Team.cs",
               "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\Team.cs",
@@ -1305,12 +1428,11 @@
               "RelativeToolTip": "GramaMaster.Domain\\Entities\\Team.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:26:29.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:26:29.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 80,
               "Title": "UpdateTeamDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Team\\UpdateTeamDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Team\\UpdateTeamDto.cs",
@@ -1318,12 +1440,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Team\\UpdateTeamDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T16:50:07.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T16:50:07.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 81,
               "Title": "TeamMemberDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Team\\TeamMemberDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Team\\TeamMemberDto.cs",
@@ -1331,12 +1452,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Team\\TeamMemberDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:26:17.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:26:17.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 82,
               "Title": "TeamMember.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Domain\\Entities\\TeamMember.cs",
               "RelativeDocumentMoniker": "GramaMaster.Domain\\Entities\\TeamMember.cs",
@@ -1344,12 +1464,11 @@
               "RelativeToolTip": "GramaMaster.Domain\\Entities\\TeamMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T17:26:50.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T17:26:50.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 83,
               "Title": "UpdateTeacherProfileDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\UpdateTeacherProfileDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\UpdateTeacherProfileDto.cs",
@@ -1357,12 +1476,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Teacher\\UpdateTeacherProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T12:51:55.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T12:51:55.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 84,
               "Title": "TopicPerformanceDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\TopicPerformanceDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\TopicPerformanceDto.cs",
@@ -1370,12 +1488,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Teacher\\TopicPerformanceDto.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T12:58:26.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T12:58:26.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 85,
               "Title": "TeacherProfileDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\TeacherProfileDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\TeacherProfileDto.cs",
@@ -1383,12 +1500,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Teacher\\TeacherProfileDto.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAswAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T12:06:52.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T12:06:52.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 86,
               "Title": "TeacherAnalyticsDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\TeacherAnalyticsDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\TeacherAnalyticsDto.cs",
@@ -1396,12 +1512,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Teacher\\TeacherAnalyticsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T12:53:34.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T12:53:34.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 87,
               "Title": "RecentContestDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\RecentContestDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\RecentContestDto.cs",
@@ -1409,12 +1524,11 @@
               "RelativeToolTip": "GramaMaster.Application\\DTOs\\Teacher\\RecentContestDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T12:54:32.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T12:54:32.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 88,
               "Title": "RegisterTeacherValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Auth\\RegisterTeacherValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Auth\\RegisterTeacherValidator.cs",
@@ -1422,12 +1536,11 @@
               "RelativeToolTip": "GramaMaster.Application\\Validators\\Auth\\RegisterTeacherValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T13:04:34.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T13:04:34.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 89,
               "Title": "RegisterStudentValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Auth\\RegisterStudentValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Auth\\RegisterStudentValidator.cs",
@@ -1439,7 +1552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 90,
               "Title": "ForgotPasswordValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Auth\\ForgotPasswordValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Auth\\ForgotPasswordValidator.cs",
@@ -1451,7 +1564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 91,
               "Title": "LoginValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Auth\\LoginValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Auth\\LoginValidator.cs",
@@ -1463,7 +1576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 92,
               "Title": "UpdateStudentProfileValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Student\\UpdateStudentProfileValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Student\\UpdateStudentProfileValidator.cs",
@@ -1475,7 +1588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 94,
               "Title": "TeamSummaryDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\TeamSummaryDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\TeamSummaryDto.cs",
@@ -1487,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 93,
               "Title": "UpdateTeacherProfileValidator.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Validators\\Teacher\\UpdateTeacherProfileValidator.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Validators\\Teacher\\UpdateTeacherProfileValidator.cs",
@@ -1499,7 +1612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 95,
               "Title": "TeacherDashboardDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Teacher\\TeacherDashboardDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Teacher\\TeacherDashboardDto.cs",
@@ -1511,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 96,
               "Title": "StudentDashboardDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Student\\StudentDashboardDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Student\\StudentDashboardDto.cs",
@@ -1523,7 +1636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 97,
               "Title": "RegisterTeacherDto.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Authentication\\RegisterTeacherDto.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Authentication\\RegisterTeacherDto.cs",
