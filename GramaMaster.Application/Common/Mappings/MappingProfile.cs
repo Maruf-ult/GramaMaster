@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GramaMaster.Application.Common.Mappings
 {
-    internal class MappingProfile
+    public class MappingProfile
     {
     }
 }

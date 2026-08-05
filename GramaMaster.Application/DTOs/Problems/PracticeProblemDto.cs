@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GramaMaster.Application.DTOs.Problems
 {
-    internal class PracticeProblemDto
+    public class PracticeProblemDto
     {
         public Guid Id { get; set; }
 
