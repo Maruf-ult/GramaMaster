@@ -263,5 +263,18 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             return await _dbContext.ExamAttempts
                 .CountAsync(x => x.ContestId == contestId);
         }
+
+        public async Task<int> GetTotalContestJoinedByUserCountAsync(Guid studentId)
+        {
+            return await _dbContext.ExamAttempts
+                .CountAsync(x => x.StudentId==studentId);
+        }
+        public async Task<int> GetTotalContestCompletedByUserCountAsync(Guid studentId)
+        {
+            return await _dbContext.ExamAttempts
+                .CountAsync(x => x.StudentId == studentId && x.SubmittedAt != null);
+        }
+
+
     }
 }

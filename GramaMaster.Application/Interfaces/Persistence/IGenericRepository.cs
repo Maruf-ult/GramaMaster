@@ -28,5 +28,6 @@ namespace GramaMaster.Application.Interfaces.Persistence
         void Delete(TEntity entity);
 
         IQueryable<TEntity> Query();
+
     }
 }

@@ -31,5 +31,8 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<List<Problem>> SearchProblemsAsync(string keyword);
 
         Task<int> GetProblemCountByTopicAsync(Guid topicId);
+
+        Task<int> GetPracticeProbCountByStudentIdAsync(Guid studentId);
+        Task<int> GetOverallAccuracyByStudentIdAsync(Guid studentId);
     }
 }

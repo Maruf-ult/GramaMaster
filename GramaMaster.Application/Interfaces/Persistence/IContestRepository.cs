@@ -28,5 +28,9 @@
         Task<bool> HasStudentSubmittedAsync(Guid contestId, Guid studentId);
 
         Task<int> GetContestParticipantCountAsync(Guid contestId);
+
+        Task<int> GetTotalContestJoinedByUserCountAsync(Guid studentId);
+
+        Task<int> GetTotalContestCompletedByUserCountAsync(Guid studentId);
     }
-    }
+}

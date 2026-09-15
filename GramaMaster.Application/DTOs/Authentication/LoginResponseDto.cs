@@ -1,4 +1,4 @@
-﻿using GramaMaster.Domain.Enums;
+using GramaMaster.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,6 +12,7 @@ namespace GramaMaster.Application.DTOs.Authentication
         public string Email { get; set; } = string.Empty;
         public UserRole Role { get; set; }
         public string AccessToken { get; set; } = string.Empty;
+        public string RefreshToken { get; set; } = string.Empty;
         public DateTime ExpiresAt { get; set; }
     }
 }

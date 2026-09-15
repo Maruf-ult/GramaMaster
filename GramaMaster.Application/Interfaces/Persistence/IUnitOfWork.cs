@@ -7,7 +7,7 @@ namespace GramaMaster.Application.Interfaces.Persistence
 {
     public interface IUnitOfWork
     {
-        IGenericRepository<Student> Students { get; }
+        IStudentRepository Students { get; }
 
         IGenericRepository<Teacher> Teachers { get; }
 

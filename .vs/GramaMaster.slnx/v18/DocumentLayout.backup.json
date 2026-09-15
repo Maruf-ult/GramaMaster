@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\GramaMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\interfaces\\services\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\interfaces\\services\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\interfaces\\services\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\interfaces\\services\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\interfaces\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\interfaces\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\interfaces\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\interfaces\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\interfaces\\services\\ipracticeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\interfaces\\services\\ipracticeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\practice\\practiceresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\practice\\practiceresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\dtos\\student\\studentanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\dtos\\student\\studentanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IAiService.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IAiService.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IAiService.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IAiService.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Interfaces\\Services\\IAiService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T19:38:55.781Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAnalyticsService.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IAnalyticsService.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IAnalyticsService.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IAnalyticsService.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Interfaces\\Services\\IAnalyticsService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T19:37:45.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IChatService.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IChatService.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IChatService.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IChatService.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Interfaces\\Services\\IChatService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T19:36:31.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IExamService.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IExamService.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IExamService.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IExamService.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Interfaces\\Services\\IExamService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T19:20:17.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PracticeResultDto.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
-              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Practice\\PracticeResultDto.cs",
+              "Title": "StudentAnalyticsDto.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Student\\StudentAnalyticsDto.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\DTOs\\Student\\StudentAnalyticsDto.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\DTOs\\Student\\StudentAnalyticsDto.cs",
+              "RelativeToolTip": "GramaMaster.Application\\DTOs\\Student\\StudentAnalyticsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T19:19:17.132Z",
+              "WhenOpened": "2026-09-15T14:04:04.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPracticeService.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IPracticeService.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IPracticeService.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IPracticeService.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Interfaces\\Services\\IPracticeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\StudentService.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Services\\StudentService.cs*",
+              "RelativeToolTip": "GramaMaster.Application\\Services\\StudentService.cs*",
+              "ViewState": "AgIAAKUAAAAAAAAAAADwv7sAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T19:05:02.799Z",
+              "WhenOpened": "2026-09-13T23:31:45.378Z",
               "EditorCaption": ""
             }
           ]

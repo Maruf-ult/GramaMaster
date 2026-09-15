@@ -103,5 +103,23 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                    x.TopicId == topicId);
         }
 
+        public async Task<int>GetPracticeProbCountByStudentIdAsync(Guid studentId)
+        {
+            return await _dbContext.Problems
+                .CountAsync(x => !x.IsDeleted && x.AnswerSubmissions.Any(pa => pa.IsCorrect && pa.ExamAttemptId == studentId));
+        }
+        public async Task<int> GetOverallAccuracyByStudentIdAsync(Guid studentId)
+        {
+            var totalAttempts = await _dbContext.Problems
+                .CountAsync(x => !x.IsDeleted && x.AnswerSubmissions.Any(pa => pa.ExamAttemptId == studentId));
+            if (totalAttempts == 0)
+                return 0;
+            var correctAttempts = await _dbContext.Problems
+                .CountAsync(x => !x.IsDeleted && x.AnswerSubmissions.Any(pa => pa.IsCorrect && pa.ExamAttemptId == studentId));
+            return (int)((double)correctAttempts / totalAttempts * 100);
+        }
+        
+
+        }
     }
 }

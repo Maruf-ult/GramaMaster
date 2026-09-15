@@ -1,0 +1,461 @@
+﻿using GramaMaster.Application.DTOs.Authentication;
+using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.Interfaces.Persistence;
+using GramaMaster.Application.Interfaces.Security;
+using GramaMaster.Application.Interfaces.Services;
+using GramaMaster.Domain.Entities;
+using GramaMaster.Domain.Enums;
+
+namespace GramaMaster.Application.Services
+{
+    public class AuthService : IAuthService
+    {
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IPasswordHasher _passwordHasher;
+        private readonly ITokenService _tokenService;
+        private readonly IEmailService _emailService;
+
+        public AuthService(
+            IUnitOfWork unitOfWork,
+            IPasswordHasher passwordHasher,
+            ITokenService tokenService,
+            IEmailService emailService)
+        {
+            _unitOfWork = unitOfWork;
+            _passwordHasher = passwordHasher;
+            _tokenService = tokenService;
+            _emailService = emailService;
+        }
+
+        public async Task<ApiResponse<LoginResponseDto>> RegisterStudentAsync(RegisterStudentDto dto)
+        {
+            // Validate the DTO
+            if (string.IsNullOrWhiteSpace(dto.Email) || string.IsNullOrWhiteSpace(dto.Password))
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Email and password are required",
+                    new List<string> { "Email and password cannot be empty" });
+            }
+
+            // Check if email already exists
+            var existingUser = await _unitOfWork.Users.GetByEmailAsync(dto.Email);
+            if (existingUser != null)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Email already registered",
+                    new List<string> { $"User with email {dto.Email} already exists" });
+            }
+
+            // Validate password confirmation
+            if (dto.Password != dto.ConfirmPassword)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Password mismatch",
+                    new List<string> { "Password and confirm password do not match" });
+            }
+
+            // Get curriculum based on curriculum type
+            var curriculums = await _unitOfWork.Curriculums.FindAsync(c => 
+                c.Name.Contains(dto.CurriculumType.ToString()));
+            if (curriculums == null || curriculums.Count == 0)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Curriculum not found",
+                    new List<string> { $"Curriculum for {dto.CurriculumType} not found" });
+            }
+
+            var curriculum = curriculums.FirstOrDefault();
+
+            // Create new user
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                FullName = dto.FullName,
+                Email = dto.Email,
+                PasswordHash = _passwordHasher.Hash(dto.Password),
+                Role = UserRole.Student,
+                IsActive = true
+            };
+
+            // Create student entity
+            var student = new Student
+            {
+                Id = Guid.NewGuid(),
+                UserId = user.Id,
+                User = user,
+                ProfileImageUrl = dto.ProfileImageUrl,
+                InstitutionName = dto.InstitutionName,
+                CurriculumType = dto.CurriculumType,
+                CurriculumId = curriculum!.Id,
+                Curriculum = curriculum,
+                Group = dto.Group,
+                ExamBatchYear = dto.ExamBatchYear,
+                Board = dto.Board
+            };
+
+            user.Student = student;
+
+            // Add to database
+            await _unitOfWork.Users.AddAsync(user);
+            await _unitOfWork.SaveChangesAsync();
+
+            // Generate tokens
+            var accessToken = _tokenService.GenerateAccessToken(user);
+            var refreshToken = _tokenService.GenerateRefreshToken();
+
+            // Create response
+            var response = new LoginResponseDto
+            {
+                UserId = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                Role = user.Role,
+                AccessToken = accessToken,
+                ExpiresAt = DateTime.UtcNow.AddHours(1) // Default 1 hour expiry
+            };
+
+            return ApiResponse<LoginResponseDto>.SuccessResponse(response, "Student registered successfully");
+        }
+
+        public async Task<ApiResponse<LoginResponseDto>> RegisterTeacherAsync(RegisterTeacherDto dto)
+        {
+            // Validate the DTO
+            if (string.IsNullOrWhiteSpace(dto.Email) || string.IsNullOrWhiteSpace(dto.Password))
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Email and password are required",
+                    new List<string> { "Email and password cannot be empty" });
+            }
+
+            // Check if email already exists
+            var existingUser = await _unitOfWork.Users.GetByEmailAsync(dto.Email);
+            if (existingUser != null)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Email already registered",
+                    new List<string> { $"User with email {dto.Email} already exists" });
+            }
+
+            // Validate password confirmation
+            if (dto.Password != dto.ConfirmPassword)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Password mismatch",
+                    new List<string> { "Password and confirm password do not match" });
+            }
+
+            // Create new user
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                FullName = dto.FullName,
+                Email = dto.Email,
+                PasswordHash = _passwordHasher.Hash(dto.Password),
+                Role = UserRole.Teacher,
+                IsActive = true
+            };
+
+            // Create teacher entity
+            var teacher = new Teacher
+            {
+                Id = Guid.NewGuid(),
+                UserId = user.Id,
+                User = user,
+                ProfileImageUrl = dto.ProfileImageUrl,
+                SscResult = dto.SscResult,
+                SscGroup = dto.SscGroup,
+                SscBoard = dto.SscBoard,
+                HscResult = dto.HscResult,
+                HscGroup = dto.HscGroup,
+                HscBoard = dto.HscBoard,
+                Department = dto.Department,
+                University = dto.University
+            };
+
+            user.Teacher = teacher;
+
+            // Add to database
+            await _unitOfWork.Users.AddAsync(user);
+            await _unitOfWork.SaveChangesAsync();
+
+            // Generate tokens
+            var accessToken = _tokenService.GenerateAccessToken(user);
+            var refreshToken = _tokenService.GenerateRefreshToken();
+
+            // Create response
+            var response = new LoginResponseDto
+            {
+                UserId = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                Role = user.Role,
+                AccessToken = accessToken,
+                ExpiresAt = DateTime.UtcNow.AddHours(1) // Default 1 hour expiry
+            };
+
+            return ApiResponse<LoginResponseDto>.SuccessResponse(response, "Teacher registered successfully");
+        }
+
+        public async Task<ApiResponse<LoginResponseDto>> LoginAsync(LoginDto dto)
+        {
+            // Validate input
+            if (string.IsNullOrWhiteSpace(dto.Email) || string.IsNullOrWhiteSpace(dto.Password))
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Invalid credentials",
+                    new List<string> { "Email and password are required" });
+            }
+
+            // Find user by email
+            var user = await _unitOfWork.Users.GetByEmailAsync(dto.Email);
+            if (user == null)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Invalid credentials",
+                    new List<string> { "User not found" });
+            }
+
+            // Verify password
+            if (!_passwordHasher.Verify(dto.Password, user.PasswordHash))
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Invalid credentials",
+                    new List<string> { "Incorrect password" });
+            }
+
+            // Check if user is active
+            if (!user.IsActive)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Account disabled",
+                    new List<string> { "Your account has been disabled" });
+            }
+
+            // Generate tokens
+            var accessToken = _tokenService.GenerateAccessToken(user);
+
+            // Create response
+            var response = new LoginResponseDto
+            {
+                UserId = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                Role = user.Role,
+                AccessToken = accessToken,
+                ExpiresAt = DateTime.UtcNow.AddHours(1) // Default 1 hour expiry
+            };
+
+            return ApiResponse<LoginResponseDto>.SuccessResponse(response, "Login successful");
+        }
+
+        public async Task<ApiResponse<bool>> ChangePasswordAsync(Guid userId, ChangePasswordDto dto)
+        {
+            // Validate input
+            if (string.IsNullOrWhiteSpace(dto.CurrentPassword) || 
+                string.IsNullOrWhiteSpace(dto.NewPassword))
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Invalid input",
+                    new List<string> { "Current and new passwords are required" });
+            }
+
+            // Validate password confirmation
+            if (dto.NewPassword != dto.ConfirmPassword)
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Password mismatch",
+                    new List<string> { "New password and confirm password do not match" });
+            }
+
+            // Find user
+            var user = await _unitOfWork.Users.GetByIdAsync(userId);
+            if (user == null)
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "User not found",
+                    new List<string> { "User does not exist" });
+            }
+
+            // Verify current password
+            if (!_passwordHasher.Verify(dto.CurrentPassword, user.PasswordHash))
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Invalid password",
+                    new List<string> { "Current password is incorrect" });
+            }
+
+            // Update password
+            user.PasswordHash = _passwordHasher.Hash(dto.NewPassword);
+            _unitOfWork.Users.Update(user);
+            await _unitOfWork.SaveChangesAsync();
+
+            return ApiResponse<bool>.SuccessResponse(true, "Password changed successfully");
+        }
+
+        public async Task<ApiResponse<bool>> ForgotPasswordAsync(ForgotPasswordDto dto)
+        {
+            // Validate input
+            if (string.IsNullOrWhiteSpace(dto.Email))
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Invalid input",
+                    new List<string> { "Email is required" });
+            }
+
+            // Find user by email
+            var user = await _unitOfWork.Users.GetByEmailAsync(dto.Email);
+            if (user == null)
+            {
+                // Return success even if user doesn't exist (security best practice)
+                return ApiResponse<bool>.SuccessResponse(true, 
+                    "If an account with this email exists, a password reset link has been sent");
+            }
+
+            // Generate reset token (using a base64 encoded combination of UserID and timestamp)
+            var resetToken = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(
+                $"{user.Id}:{DateTime.UtcNow.Ticks}"));
+
+            // Send password reset email
+            try
+            {
+                await _emailService.SendPasswordResetEmailAsync(user.Email, resetToken);
+            }
+            catch (Exception ex)
+            {
+                // Log the error but return success to user
+                return ApiResponse<bool>.SuccessResponse(true,
+                    "If an account with this email exists, a password reset link has been sent");
+            }
+
+            return ApiResponse<bool>.SuccessResponse(true,
+                "If an account with this email exists, a password reset link has been sent");
+        }
+
+        public async Task<ApiResponse<bool>> ResetPasswordAsync(ResetPasswordDto dto)
+        {
+            // Validate input
+            if (string.IsNullOrWhiteSpace(dto.Email) || 
+                string.IsNullOrWhiteSpace(dto.Token) || 
+                string.IsNullOrWhiteSpace(dto.NewPassword))
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Invalid input",
+                    new List<string> { "Email, token, and new password are required" });
+            }
+
+            // Validate password confirmation
+            if (dto.NewPassword != dto.ConfirmPassword)
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Password mismatch",
+                    new List<string> { "New password and confirm password do not match" });
+            }
+
+            // Find user by email
+            var user = await _unitOfWork.Users.GetByEmailAsync(dto.Email);
+            if (user == null)
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Invalid request",
+                    new List<string> { "User not found" });
+            }
+
+            // Validate token (basic validation - in production, store tokens in database)
+            try
+            {
+                var decodedToken = System.Text.Encoding.UTF8.GetString(
+                    Convert.FromBase64String(dto.Token));
+                var parts = decodedToken.Split(':');
+
+                if (parts.Length != 2 || !Guid.TryParse(parts[0], out var tokenUserId))
+                {
+                    return ApiResponse<bool>.ErrorResponse(
+                        "Invalid token",
+                        new List<string> { "Reset token is invalid or expired" });
+                }
+
+                if (tokenUserId != user.Id)
+                {
+                    return ApiResponse<bool>.ErrorResponse(
+                        "Invalid request",
+                        new List<string> { "Token does not match the user" });
+                }
+
+                // Check if token is expired (tokens valid for 1 hour)
+                if (!long.TryParse(parts[1], out var tokenTicks))
+                {
+                    return ApiResponse<bool>.ErrorResponse(
+                        "Invalid token",
+                        new List<string> { "Reset token is malformed" });
+                }
+
+                var tokenTime = new DateTime(tokenTicks);
+                if (DateTime.UtcNow.Subtract(tokenTime).TotalHours > 1)
+                {
+                    return ApiResponse<bool>.ErrorResponse(
+                        "Token expired",
+                        new List<string> { "Reset token has expired" });
+                }
+            }
+            catch (Exception)
+            {
+                return ApiResponse<bool>.ErrorResponse(
+                    "Invalid token",
+                    new List<string> { "Reset token is invalid" });
+            }
+
+            // Update password
+            user.PasswordHash = _passwordHasher.Hash(dto.NewPassword);
+            _unitOfWork.Users.Update(user);
+            await _unitOfWork.SaveChangesAsync();
+
+            return ApiResponse<bool>.SuccessResponse(true, "Password reset successfully");
+        }
+
+        public async Task<ApiResponse<LoginResponseDto>> RefreshTokenAsync(RefreshTokenDto dto)
+        {
+            // Validate input
+            if (string.IsNullOrWhiteSpace(dto.RefreshToken))
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Invalid token",
+                    new List<string> { "Refresh token is required" });
+            }
+
+            // Get user ID from expired token (if we're refreshing, the access token is expired)
+            // In a real implementation, you'd validate the refresh token against a database
+            var userId = _tokenService.GetUserIdFromExpiredToken(dto.RefreshToken);
+            if (userId == null || userId == Guid.Empty)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Invalid token",
+                    new List<string> { "Refresh token is invalid or expired" });
+            }
+
+            // Find user
+            var user = await _unitOfWork.Users.GetByIdAsync(userId.Value);
+            if (user == null || !user.IsActive)
+            {
+                return ApiResponse<LoginResponseDto>.ErrorResponse(
+                    "Invalid request",
+                    new List<string> { "User not found or account is disabled" });
+            }
+
+            // Generate new access token
+            var newAccessToken = _tokenService.GenerateAccessToken(user);
+
+            // Create response
+            var response = new LoginResponseDto
+            {
+                UserId = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                Role = user.Role,
+                AccessToken = newAccessToken,
+                ExpiresAt = DateTime.UtcNow.AddHours(1) // Default 1 hour expiry
+            };
+
+            return ApiResponse<LoginResponseDto>.SuccessResponse(response, "Token refreshed successfully");
+        }
+    }
+}

@@ -24,5 +24,6 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<List<ExamAttempt>> GetLeaderboardAsync(Guid contestId,QueryDto query);
 
         Task<bool> HasStudentAlreadyTakenContestAsync(Guid studentId, Guid contestId);
+       
     }
 }

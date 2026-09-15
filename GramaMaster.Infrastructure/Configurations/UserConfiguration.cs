@@ -1,4 +1,4 @@
-﻿using GramaMaster.Domain.Entities;
+using GramaMaster.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -39,6 +39,12 @@ namespace GramaMaster.Infrastructure.Configurations
             builder.Property(x => x.IsActive)
                 .HasDefaultValue(true)
                 .IsRequired();
+
+            builder.Property(x => x.RefreshToken)
+                .HasMaxLength(500);
+
+            builder.Property(x => x.PasswordResetToken)
+                .HasMaxLength(500);
 
          
             builder.HasOne(x => x.Student)

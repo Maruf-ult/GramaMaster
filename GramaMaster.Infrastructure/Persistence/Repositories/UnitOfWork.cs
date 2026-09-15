@@ -17,7 +17,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
         {
             _dbContext = dbContext;
 
-            Students = new GenericRepository<Student>(_dbContext);
+            Students = new StudentRepository(_dbContext);
             Teachers = new GenericRepository<Teacher>(_dbContext);
             Teams = new GenericRepository<Team>(_dbContext);
             TeamMembers = new GenericRepository<TeamMember>(_dbContext);

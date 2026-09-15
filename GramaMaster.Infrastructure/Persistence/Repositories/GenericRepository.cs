@@ -83,5 +83,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
         {
             return _dbSet.Where(x => !x.IsDeleted).AsQueryable();
         }
+
+
     }
 }

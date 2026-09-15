@@ -10,3 +10,5 @@ D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.dll
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\refint\GramaMaster.Domain.dll
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.pdb
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\ref\GramaMaster.Domain.dll
+D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.csproj.AssemblyReference.cache
+D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMas.D4B367C9.Up2Date
