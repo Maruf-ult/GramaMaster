@@ -4,10 +4,7 @@ using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
 using GramaMaster.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 
 namespace GramaMaster.Infrastructure.Persistence.Repositories
 {
@@ -129,6 +126,19 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .ToListAsync();
         }
 
+        public async Task<List<Contest>> GetRunningContestsByTeacherAsync(Guid teacherId)
+        {
+            var now = DateTime.UtcNow;
+
+            return await _dbContext.Contests
+                .Include(x => x.Curriculum)
+                .Include(x => x.CreatedByUser)
+                .Include(x => x.Team)
+                .Where(x => x.CreatedByUserId == teacherId && !x.IsDeleted && x.StartAt <= now && x.EndAt >= now)
+                .OrderBy(x => x.StartAt)
+                .ToListAsync();
+        }
+
         public async Task<List<Contest>> GetCompletedContestsAsync(QueryDto query)
         {
             var now = DateTime.UtcNow;
@@ -137,7 +147,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .Include(x => x.Curriculum)
                 .Include(x => x.CreatedByUser)
                 .Include(x => x.Team)
-                .Where(x => !x.IsDeleted && x.EndAt > now);
+                .Where(x => !x.IsDeleted && x.EndAt < now);
 
 
             if (!string.IsNullOrWhiteSpace(query.Search))
@@ -223,6 +233,22 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
 
         }
 
+        public async Task<double> GetAverageContestScoreByTeacherId(Guid teacherId)
+        {
+            var contests = await _dbContext.Contests
+                .Where(x => x.CreatedByUserId == teacherId && !x.IsDeleted).ToListAsync();
+
+            if(contests.Count == 0)
+            {
+                return 0.0;
+            }
+
+            var avg = contests.Average(c => c.ExamAttempts.Count > 0 ? c.ExamAttempts.Average(a => a.Score) : 0.0);
+
+            return avg;
+        }
+
+
         public async Task<List<Contest>> GetStudentAvailableContestsAsync(Guid studentId)
         {
             var student = await _dbContext.Students.FirstOrDefaultAsync(x => x.Id == studentId);
@@ -275,6 +301,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .CountAsync(x => x.StudentId == studentId && x.SubmittedAt != null);
         }
 
+        
 
     }
 }

@@ -34,5 +34,7 @@ namespace GramaMaster.Application.Interfaces.Persistence
 
         Task<int> GetPracticeProbCountByStudentIdAsync(Guid studentId);
         Task<int> GetOverallAccuracyByStudentIdAsync(Guid studentId);
+        Task<int> GetOverrallAccuracyOfTeamMembersAsync(Guid teamId);
+        Task<double> GetAverageStudentAccuracyByTeacherIdAsync(Guid teacherId);
     }
 }

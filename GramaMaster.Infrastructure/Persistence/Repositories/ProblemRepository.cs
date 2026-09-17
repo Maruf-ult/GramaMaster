@@ -108,6 +108,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             return await _dbContext.Problems
                 .CountAsync(x => !x.IsDeleted && x.AnswerSubmissions.Any(pa => pa.IsCorrect && pa.ExamAttemptId == studentId));
         }
+       
         public async Task<int> GetOverallAccuracyByStudentIdAsync(Guid studentId)
         {
             var totalAttempts = await _dbContext.Problems
@@ -118,8 +119,40 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .CountAsync(x => !x.IsDeleted && x.AnswerSubmissions.Any(pa => pa.IsCorrect && pa.ExamAttemptId == studentId));
             return (int)((double)correctAttempts / totalAttempts * 100);
         }
-        
 
+        public async Task<int> GetOverrallAccuracyOfTeamMembersAsync(Guid teamId)
+        {
+            var teamMembers = await _dbContext.TeamMembers
+                .Where(tm => tm.TeamId == teamId)
+                .Select(tm => tm.StudentId)
+                .ToListAsync();
+            int sum = 0;
+            foreach( var x in teamMembers)
+            {
+                var accuracy = await GetOverallAccuracyByStudentIdAsync(x);
+                sum += accuracy; 
+            }
+            return sum/teamMembers.Count;
         }
+
+        public async Task<double> GetAverageStudentAccuracyByTeacherIdAsync(Guid teacherId)
+        {
+            var teamIds = await _dbContext.Teams
+                .Where(t => t.TeacherId == teacherId && !t.IsDeleted)
+                .ToListAsync();
+
+            var teamMembers = await _dbContext.TeamMembers
+                .Where(tm => teamIds.Select(t => t.Id).Contains(tm.TeamId))
+                .Select(tm => tm.StudentId)
+                .ToListAsync();
+            double sum = 0;
+            foreach(var studentId in teamMembers)
+            {
+                var accuracy = await GetOverallAccuracyByStudentIdAsync(studentId);
+                sum += accuracy;
+            }
+            return teamMembers.Count > 0 ? sum / teamMembers.Count : 0;
+        }
+
     }
 }

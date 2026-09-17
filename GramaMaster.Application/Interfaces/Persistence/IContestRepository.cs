@@ -14,13 +14,14 @@
         Task<bool> IsContestRunningAsync(Guid contestId);
         Task<List<Contest>> GetUpcomingContestsAsync();
         Task<List<Contest>> GetRunningContestsAsync();
+        Task<List<Contest>> GetRunningContestsByTeacherAsync(Guid teacherId);
         Task<List<Contest>> GetCompletedContestsAsync(QueryDto query);
         Task<Contest?> GetContestWithAttemptsAsync(Guid contestId);
 
         Task<List<Contest>> GetContestsByCurriculumAsync(Guid curriculumId);
 
         Task<List<Contest>> GetTeacherContestsAsync(Guid teacherUserId, QueryDto query);
-
+        Task<double> GetAverageContestScoreByTeacherId(Guid teacherId);
         Task<List<Contest>> GetStudentAvailableContestsAsync(Guid studentId);
 
         Task<bool> HasStudentJoinedAsync(Guid contestId, Guid studentId);

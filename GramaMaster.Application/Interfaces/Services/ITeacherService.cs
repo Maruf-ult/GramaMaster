@@ -8,15 +8,15 @@ namespace GramaMaster.Application.Interfaces.Services
 {
     public interface ITeacherService
     {
-        Task<TeacherProfileDto> GetProfileAsync(Guid teacherId);
+        Task<ApiResponse<TeacherProfileDto>> GetProfileAsync(Guid teacherId);
 
         Task<ApiResponse<bool>> UpdateProfileAsync(
             Guid teacherId,
             UpdateTeacherProfileDto dto);
 
-        Task<TeacherDashboardDto> GetDashboardAsync(Guid teacherId);
+        Task<ApiResponse<TeacherDashboardDto>> GetDashboardAsync(Guid teacherId);
 
-        Task<TeacherAnalyticsDto> GetAnalyticsAsync(Guid teacherId);
+        Task<ApiResponse<TeacherAnalyticsDto>> GetAnalyticsAsync(Guid teacherId);
 
 
     }

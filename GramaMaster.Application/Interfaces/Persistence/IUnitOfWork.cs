@@ -9,7 +9,7 @@ namespace GramaMaster.Application.Interfaces.Persistence
     {
         IStudentRepository Students { get; }
 
-        IGenericRepository<Teacher> Teachers { get; }
+        ITeacherRepository Teachers { get; }
 
         IGenericRepository<Team> Teams { get; }
 

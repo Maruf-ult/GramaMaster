@@ -95,16 +95,18 @@ namespace GramaMaster.Application.Services
 
         public async Task<ApiResponse<bool>> UpdateProfileAsync(Guid studentId,UpdateStudentProfileDto dto)
         {
+            if (dto == null)
+            {
+                return ApiResponse<bool>.ErrorResponse(new[] { "Request playload can not be empty" }, "Inavalid Request");
+            }
+
             var std = await _unitOfWork.Students.GetStudentWithDetailsAsync(studentId);
 
             if(std == null)
             {
                 return ApiResponse<bool>.ErrorResponse(new[] {"Student Profile not found"},"Not found");
             }
-            if(dto == null)
-            {
-                return ApiResponse<bool>.ErrorResponse(new[] { "Request playload can not be empty" }, "Inavalid Request");
-            }
+          
             var validationResult = await _updateStudentProfileValidator.ValidateAsync(dto);
             if (!validationResult.IsValid) 
             {
