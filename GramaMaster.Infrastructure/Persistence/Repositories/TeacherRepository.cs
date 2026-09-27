@@ -56,5 +56,35 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .CountAsync();
         }
 
+        public async Task<List<Team>>GetTeamsByTeacherId(Guid teacherId)
+        {
+            return await _dbContext.Teams.Where(x => x.TeacherId == teacherId && !x.IsDeleted).ToListAsync();
+        }
+
+        public async Task<bool>RemoveStudentByIdAsync(Guid studentId)
+        {
+            var student = await _dbContext.TeamMembers.FirstOrDefaultAsync(x => x.StudentId == studentId && !x.IsDeleted);
+
+            if (student == null) return false;
+            student.IsDeleted = true;
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> DeleteTopicAsync(Guid topicId)
+        {
+            var topic = await _dbContext.Topics.FirstOrDefaultAsync(x => x.Id == topicId);
+
+            if (topic == null) return false;
+            topic.IsDeleted = true;
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<List<Topic>> GetTopicByCurriculumAsync(Guid curriculumId)
+        {
+            return await _dbContext.Topics.Where(x => x.CurriculumId == curriculumId).ToListAsync();
+        }
+
     }
 }

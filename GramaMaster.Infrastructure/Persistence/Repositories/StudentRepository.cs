@@ -48,5 +48,19 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             }
             return topics;
         }
+        
+        public async Task<List<Team>>GetTeamsByStudentIdAsync(Guid studentId)
+        {
+            return await _dbContext.Teams
+                 .Where(x => x.TeamMembers.Any(tm => tm.StudentId == studentId))
+                 .ToListAsync();
+        }
+
+        public async Task<Team?> GetByJoinCodeAsync(string joinCode)
+        {
+            return await _dbContext.Teams
+                .Include(x => x.TeamMembers)
+                .FirstOrDefaultAsync(x => x.JoinCode == joinCode && !x.IsDeleted && x.IsActive);
+        }
     }
 }

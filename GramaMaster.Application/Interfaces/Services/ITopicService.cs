@@ -8,18 +8,18 @@ namespace GramaMaster.Application.Interfaces.Services
 {
     public interface ITopicService
     {
-        Task<ApiResponse<TopicDto>> CreateAsync(CreateTopicDto dto);
+        Task<ApiResponse<TopicDto>> CreateTopicAsync(CreateTopicDto dto);
 
-        Task<ApiResponse<bool>> UpdateAsync(
+        Task<ApiResponse<bool>> UpdateTopicAsync(
             Guid topicId,
             UpdateTopicDto dto);
 
-        Task<ApiResponse<bool>> DeleteAsync(Guid topicId);
+        Task<ApiResponse<bool>> DeleteTopicAsync(Guid topicId);
 
-        Task<List<TopicDto>> GetAllAsync();
+        Task<ApiResponse<List<TopicDto>>> GetAllTopicAsync();
 
-        Task<TopicDto> GetByIdAsync(Guid topicId);
+        Task<ApiResponse<TopicDto>> GetTopicByIdAsync(Guid topicId);
 
-        Task<List<TopicDto>> GetByCurriculumAsync(Guid curriculumId);
+        Task<ApiResponse<List<TopicDto>>> GetTopicByCurriculumAsync(Guid curriculumId);
     }
 }

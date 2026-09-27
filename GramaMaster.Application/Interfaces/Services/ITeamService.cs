@@ -22,13 +22,13 @@ namespace GramaMaster.Application.Interfaces.Services
             Guid studentId,
             JoinTeamDto dto);
 
-        Task<TeamDto> GetTeamAsync(Guid teamId);
+        Task<ApiResponse<TeamDto>> GetTeamAsync(Guid teamId);
 
-        Task<List<TeamDto>> GetTeacherTeamsAsync(Guid teacherId);
+        Task<ApiResponse<List<TeamDto>>> GetTeacherTeamsAsync(Guid teacherId);
 
-        Task<List<TeamDto>> GetStudentTeamsAsync(Guid studentId);
+        Task<ApiResponse<List<TeamDto>>> GetStudentTeamsAsync(Guid studentId);
 
-        Task<List<TeamMemberDto>> GetMembersAsync(Guid teamId);
+        Task<ApiResponse<List<TeamMemberDto>>> GetMembersAsync(Guid teamId);
 
         Task<ApiResponse<bool>> RemoveStudentAsync(
             Guid teamId,

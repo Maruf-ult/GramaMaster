@@ -1,22 +1,21 @@
 ﻿using GramaMaster.Application.DTOs.Common;
-using GramaMaster.Application.Interfaces.Persistence;
-using GramaMaster.Domain.Entities;
+using GramaMaster.Application.DTOs.Users; 
 using GramaMaster.Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GramaMaster.Application.Interfaces.Services
 {
-    public interface IUserService : IGenericService<User>
+    public interface IUserService
     {
-        Task<ApiResponse<User?>> GetByEmailAsync(string email);
-        Task<ApiResponse<bool>> ExistsByEmailAsync(string email);
-        Task<ApiResponse<User?>> GetWithStudentAsync(Guid id);
-        Task<ApiResponse<User?>> GetWithTeacherAsync(Guid id);
-        Task<ApiResponse<List<User>>> GetUsersByRoleAsync(UserRole role, QueryDto query);
-        Task<ApiResponse<List<Teacher>>> GetTeachersAsync(QueryDto query);
-        Task<ApiResponse<List<Student>>> GetStudentsAsync(QueryDto query);
+        // Admin: Get all users with search, filter by role, pagination
+        Task<ApiResponse<PagedResultDto<UserDto>>> GetUsersAsync(QueryDto query, UserRole? role = null);
 
+        // Admin / User: Get user profile by ID
+        Task<ApiResponse<UserDto>> GetByIdAsync(Guid userId);
+
+        // Admin: Activate / Deactivate user account (e.g. ban spammer or teacher approval)
+        Task<ApiResponse<bool>> ToggleUserStatusAsync(Guid userId, bool isActive);
+
+        // Admin: Delete user
+        Task<ApiResponse<bool>> DeleteUserAsync(Guid userId);
     }
 }
