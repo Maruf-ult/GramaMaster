@@ -9,10 +9,6 @@ namespace GramaMaster.Application.Interfaces.Services
     {
         Task<AdminDashboardDto> GetAdminDashboardAsync();
 
-        //Task<TeacherDashboardDto> GetTeacherDashboardAsync(Guid teacherId);
-
-        //Task<StudentDashboardDto> GetStudentDashboardAsync(Guid studentId);
-
         Task<List<TopicStatisticsDto>> GetTopicStatisticsAsync();
 
         Task<List<PerformanceTrendDto>> GetPerformanceTrendAsync(Guid studentId);

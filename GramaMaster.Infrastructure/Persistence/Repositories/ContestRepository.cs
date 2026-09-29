@@ -1,4 +1,5 @@
 ﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.DTOs.Problems;
 using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
@@ -91,6 +92,15 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                     .ThenInclude(p => p.ProblemOptions)
                 .FirstOrDefaultAsync(x => x.Id == contestId && !x.IsDeleted);
         }
+        public async Task<List<Problem>> GetContestProblemsAsync(Guid contestId)
+        {
+            return await _dbContext.Contests
+                .Where(x => x.Id == contestId && !x.IsDeleted)
+                .SelectMany(x => x.Problems)
+                .Include(x => x.ProblemOptions)
+                .ToListAsync();
+        }
+
         public async Task<bool> IsContestRunningAsync(Guid contestId)
         {
             var now = DateTime.UtcNow;

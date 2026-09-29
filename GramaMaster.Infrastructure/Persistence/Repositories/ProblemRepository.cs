@@ -1,4 +1,5 @@
-﻿using GramaMaster.Application.Interfaces.Persistence;
+﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
 using GramaMaster.Infrastructure.Data;
@@ -68,6 +69,10 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .Include(x => x.Topic)
                 .Include(x => x.ProblemOptions)
                 .FirstOrDefaultAsync(x => x.Id == problemId && !x.IsDeleted);
+        }
+        public async Task<Problem?> GetProblemByProblemId(Guid problemId)
+        {
+            return await _dbContext.Problems.FirstOrDefaultAsync(x => x.Id == problemId && !x.IsDeleted);
         }
 
         public async Task<List<Problem>> GetTeacherProblemsAsync(Guid teacherUserId)
@@ -152,6 +157,25 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 sum += accuracy;
             }
             return teamMembers.Count > 0 ? sum / teamMembers.Count : 0;
+        }
+
+        public async Task AddAsync(Problem problem)
+        {
+            problem.CreatedAt = DateTime.UtcNow;
+            await _dbContext.AddAsync(problem);
+        }
+
+        public async Task<bool> DeleteProblemAsync(Guid problemId)
+        {
+            var problem = await _dbContext.Problems.FirstOrDefaultAsync(x => x.Id == problemId && !x.IsDeleted);
+            if (problem == null)
+            {
+                return false;
+            }
+            problem.IsDeleted = true;
+            await _dbContext.SaveChangesAsync();
+            return true;
+
         }
 
     }

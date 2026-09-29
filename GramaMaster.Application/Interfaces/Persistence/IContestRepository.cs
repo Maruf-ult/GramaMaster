@@ -11,6 +11,7 @@
         Task<List<Contest>> GetGlobalContestsAsync(QueryDto query);
         Task<List<Contest>> GetTeamContestsAsync(Guid teamId,QueryDto query);
         Task<Contest?> GetContestWithProblemsAsync(Guid contestId);
+        Task<List<Problem>> GetContestProblemsAsync(Guid contestId);
         Task<bool> IsContestRunningAsync(Guid contestId);
         Task<List<Contest>> GetUpcomingContestsAsync();
         Task<List<Contest>> GetRunningContestsAsync();

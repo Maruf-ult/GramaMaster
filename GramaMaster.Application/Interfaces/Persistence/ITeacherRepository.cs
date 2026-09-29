@@ -10,6 +10,7 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<Teacher?> GetTeacherWithDetailsAsync(Guid teacherIdOrUserId);
         Task<int> GetTeacherContestCountAsync(Guid teacherId);
         Task<int> GetTotalProblemsCreatedAsync(Guid teacherId);
+        Task<List<Problem>> GetProblemsCreatedAsync(Guid teacherId);
         Task<int> GetRunningContestCountAsync(Guid teacherId);
         Task<int> GetCompletedContestCountAsync(Guid teacherId);
         Task<List<Team>> GetTeamsByTeacherId(Guid teacherId);

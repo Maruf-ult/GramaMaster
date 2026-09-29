@@ -10,28 +10,20 @@ namespace GramaMaster.Application.Interfaces.Services
 {
     public interface IProblemService
     {
-        Task<ApiResponse<ProblemDto>> CreateAsync(
-            Guid userId,
-            CreateProblemDto dto);
+        Task<ApiResponse<ProblemDto>> CreateProblemAsync( Guid userId,CreateProblemDto dto);
 
-        Task<ApiResponse<bool>> UpdateAsync(
-            Guid problemId,
-            UpdateProblemDto dto);
+        Task<ApiResponse<bool>> UpdateProblemAsync(Guid problemId,UpdateProblemDto dto);
 
-        Task<ApiResponse<bool>> DeleteAsync(Guid problemId);
+        Task<ApiResponse<bool>> DeleteProblemAsync(Guid problemId);
 
-        Task<ProblemDetailsDto> GetDetailsAsync(Guid problemId);
+        Task<ApiResponse<ProblemDetailsDto>> GetProblemDetailsAsync(Guid problemId);
 
-        Task<List<ProblemDto>> GetContestProblemsAsync(Guid contestId);
+        Task<ApiResponse<List<ProblemDto>>> GetContestProblemsAsync(Guid contestId);
 
-        Task<List<ProblemDto>> GetTeacherProblemsAsync(Guid teacherId);
+        Task<ApiResponse<List<ProblemDto>>> GetTeacherProblemsAsync(Guid teacherId);
 
-        Task<List<ProblemDto>> SearchAsync(string keyword);
+        Task<ApiResponse<List<ProblemDto>>> SearchProblemAsync(string keyword);
 
-        Task<List<PracticeProblemDto>> GetPracticeProblemsAsync(
-            Guid studentId,
-            Guid topicId,
-            DifficultyType difficulty,
-            int count);
+        Task<ApiResponse<List<PracticeProblemDto>>> GetPracticeProblemsAsync(Guid studentId,Guid topicId,DifficultyType difficulty, int count);
     }
 }

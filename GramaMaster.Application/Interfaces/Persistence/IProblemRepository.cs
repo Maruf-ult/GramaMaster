@@ -21,6 +21,9 @@ namespace GramaMaster.Application.Interfaces.Persistence
             Guid topicId,
             DifficultyType difficulty,
             int count);
+        Task<Problem?> GetProblemByProblemId(Guid problemId);
+
+        Task AddAsync(Problem problem);
 
         Task<List<Problem>> GetContestProblemsAsync(Guid contestId);
 
@@ -36,5 +39,6 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<int> GetOverallAccuracyByStudentIdAsync(Guid studentId);
         Task<int> GetOverrallAccuracyOfTeamMembersAsync(Guid teamId);
         Task<double> GetAverageStudentAccuracyByTeacherIdAsync(Guid teacherId);
+        Task<bool> DeleteProblemAsync(Guid problemId);
     }
 }

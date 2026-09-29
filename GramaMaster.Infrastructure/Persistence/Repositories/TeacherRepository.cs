@@ -41,6 +41,13 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .CountAsync();
         }
 
+        public async Task<List<Problem>>GetProblemsCreatedAsync(Guid teacherId)
+        {
+            return await _dbContext.Problems
+                .Where(x => x.CreatedByUserId == teacherId && !x.IsDeleted)
+                .ToListAsync();
+        }
+
         public async Task<int>GetCompletedContestCountAsync(Guid teacherId)
         {
             var now = DateTime.UtcNow;
