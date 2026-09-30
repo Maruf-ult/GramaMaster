@@ -12,5 +12,6 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<List<Topic>> GetCurriculumTopicsWithProblemsAsync(Guid curriculumId);
         Task<List<Team>> GetTeamsByStudentIdAsync(Guid studentId);
         Task<Team?> GetByJoinCodeAsync(string joinCode);
+        Task<List<ExamAttempt>> GetStudentHistory(Guid studentId);
     }
 }

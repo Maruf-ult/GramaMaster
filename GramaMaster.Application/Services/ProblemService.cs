@@ -81,6 +81,7 @@ namespace GramaMaster.Application.Services
                 };
                 Problem.ProblemOptions.Add(option);
             }
+            problem.CreatedAt = DateTime.UtcNow;
 
             await _unitOfWork.Problems.AddAsync(problem);
             await _unitOfWork.SaveChangesAsync();

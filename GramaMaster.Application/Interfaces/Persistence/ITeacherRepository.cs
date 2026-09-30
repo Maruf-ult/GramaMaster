@@ -17,6 +17,7 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<bool> RemoveStudentByIdAsync(Guid studentId);
         Task<bool> DeleteTopicAsync(Guid topicId);
         Task<List<Topic>> GetTopicByCurriculumAsync(Guid curriculumId);
+        Task<bool> DeleteGramaRuleAsync(Guid id);
 
 
     }

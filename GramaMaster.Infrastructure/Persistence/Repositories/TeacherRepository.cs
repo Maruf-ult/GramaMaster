@@ -1,4 +1,5 @@
-﻿using GramaMaster.Application.Interfaces.Persistence;
+﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -80,7 +81,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
 
         public async Task<bool> DeleteTopicAsync(Guid topicId)
         {
-            var topic = await _dbContext.Topics.FirstOrDefaultAsync(x => x.Id == topicId);
+            var topic = await _dbContext.Topics.FirstOrDefaultAsync(x => x.Id == topicId && !x.IsDeleted);
 
             if (topic == null) return false;
             topic.IsDeleted = true;
@@ -91,6 +92,19 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
         public async Task<List<Topic>> GetTopicByCurriculumAsync(Guid curriculumId)
         {
             return await _dbContext.Topics.Where(x => x.CurriculumId == curriculumId).ToListAsync();
+        }
+        public async Task<bool> DeleteGramaRuleAsync(Guid id)
+        {
+            var grama = await _dbContext.GrammarRules.FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
+
+            if(grama == null)
+            {
+                return false;
+            }
+            grama.IsDeleted = true;
+            await _dbContext.SaveChangesAsync();
+            return true;
+                
         }
 
     }

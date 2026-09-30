@@ -62,5 +62,17 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 .Include(x => x.TeamMembers)
                 .FirstOrDefaultAsync(x => x.JoinCode == joinCode && !x.IsDeleted && x.IsActive);
         }
+
+        public async Task<List<ExamAttempt>> GetStudentHistory(Guid studentId)
+        {
+            return await _dbContext.ExamAttempts
+                .Include(p => p.AnswerSubmissions)
+                .ThenInclude(p => p.Problem)
+                .ThenInclude(p => p.Topic)
+                .Where(x => x.StudentId== studentId && !x.IsDeleted && x.SubmittedAt!=null)
+                .OrderByDescending(x => x.SubmittedAt)
+                .ToListAsync();
+        }
+       
     }
 }

@@ -1,10 +1,7 @@
 ﻿using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Problems;
-using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace GramaMaster.Application.Interfaces.Services
 {
@@ -25,5 +22,6 @@ namespace GramaMaster.Application.Interfaces.Services
         Task<ApiResponse<List<ProblemDto>>> SearchProblemAsync(string keyword);
 
         Task<ApiResponse<List<PracticeProblemDto>>> GetPracticeProblemsAsync(Guid studentId,Guid topicId,DifficultyType difficulty, int count);
+
     }
 }

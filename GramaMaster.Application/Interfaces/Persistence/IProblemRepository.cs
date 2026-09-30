@@ -40,5 +40,8 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<int> GetOverrallAccuracyOfTeamMembersAsync(Guid teamId);
         Task<double> GetAverageStudentAccuracyByTeacherIdAsync(Guid teacherId);
         Task<bool> DeleteProblemAsync(Guid problemId);
+        Task<List<Problem>> GetProblemsForPracticeSubmissionAsync(
+    List<Guid> problemIds);
+
     }
 }

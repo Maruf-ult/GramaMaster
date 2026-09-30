@@ -178,5 +178,14 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
 
         }
 
+        public async Task<List<Problem>> GetProblemsForPracticeSubmissionAsync( List<Guid> problemIds)
+        {
+            return await _dbContext.Problems
+                .Where(x =>
+                    problemIds.Contains(x.Id) &&
+                    !x.IsDeleted)
+                .ToListAsync();
+        }
+
     }
 }
