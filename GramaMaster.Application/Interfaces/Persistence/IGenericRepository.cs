@@ -1,4 +1,4 @@
-﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Team;
 using GramaMaster.Domain.Entities;
 using System;
@@ -29,6 +29,5 @@ namespace GramaMaster.Application.Interfaces.Persistence
         void Delete(TEntity entity);
 
         IQueryable<TEntity> Query();
-        Task AddAsync(TeamDto newTeam);
     }
 }

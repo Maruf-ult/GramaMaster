@@ -1,4 +1,4 @@
-﻿using GramaMaster.Application.Interfaces.Persistence;
+using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +29,21 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                      .Where(x => x.ChatSessionId == sessionId && !x.IsDeleted)
                      .OrderBy(x => x.CreatedAt)
                      .ToListAsync();
+        }
+
+        public async Task<List<ChatSession>> GetStudentSessionsAsync(Guid studentId)
+        {
+            return await _dbContext.ChatSessions
+                .Include(x => x.Messages.Where(m => !m.IsDeleted).OrderBy(m => m.CreatedAt))
+                .Where(x => x.StudentId == studentId && !x.IsDeleted)
+                .OrderByDescending(x => x.StartedAt)
+                .ToListAsync();
+        }
+
+        public async Task AddSessionAsync(ChatSession session)
+        {
+            session.CreatedAt = DateTime.UtcNow;
+            await _dbContext.ChatSessions.AddAsync(session);
         }
     }
 }

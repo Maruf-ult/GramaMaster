@@ -19,6 +19,15 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             _dbContext = dbContext;
         }
 
+        public async Task<List<Problem>> GetAllAsync()
+        {
+            return await _dbContext.Problems
+                .Include(x => x.Topic)
+                .Include(x => x.ProblemOptions)
+                .Where(x => !x.IsDeleted)
+                .OrderByDescending(x => x.CreatedAt)
+                .ToListAsync();
+        }
         public async Task<List<Problem>> GetByTopicAsync(Guid topicId)
         {
             return await _dbContext.Problems

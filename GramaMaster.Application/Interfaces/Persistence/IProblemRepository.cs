@@ -8,6 +8,8 @@ namespace GramaMaster.Application.Interfaces.Persistence
 {
     public interface IProblemRepository
     {
+
+        Task<List<Problem>> GetAllAsync();
         Task<List<Problem>> GetByTopicAsync(Guid topicId);
 
         Task<List<Problem>> GetPracticeProblemsAsync(

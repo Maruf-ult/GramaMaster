@@ -76,23 +76,23 @@ namespace GramaMaster.Application.Services
             var teamDescription = dto?.Description;
             string safeJoinCode = JoinCodeGenerator.GenerateCode(7);
 
-            var newTeam = new TeamDto
+            var team = new Team
             {
                 Id = Guid.NewGuid(),
                 TeacherId = teacher.Id,
-                TeacherName = teacher.User.FullName,
                 Name = teamName,
                 Description = teamDescription,
                 JoinCode = safeJoinCode,
-                MemberCount = 0,
-                Members = new(),
-                CreatedAt = DateTime.UtcNow
+                IsActive = true,
+                MaxStudents = 100
             };
 
-            await _unitOfWork.Teams.AddAsync(newTeam);
+            await _unitOfWork.Teams.AddAsync(team);
             await _unitOfWork.SaveChangesAsync();
 
-            return ApiResponse<TeamDto>.SuccessResponse(newTeam,"Team created Successfully");
+            var teamDto = _mapper.Map<TeamDto>(team);
+
+            return ApiResponse<TeamDto>.SuccessResponse(teamDto,"Team created Successfully");
 
 
         }

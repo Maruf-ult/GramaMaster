@@ -18,20 +18,20 @@ namespace GramaMaster.Application.Interfaces.Services
 
         Task<ApiResponse<bool>> DeleteContestAsync(Guid contestId);
 
-        Task<ContestDetailsDto> GetContestDetailsAsync(Guid contestId);
+        Task<ApiResponse<ContestDetailsDto>> GetContestDetailsAsync(Guid contestId);
 
-        Task<PagedResultDto<ContestCardDto>> GetGlobalContestsAsync(QueryDto query);
+        Task<ApiResponse<PagedResultDto<ContestCardDto>>> GetGlobalContestsAsync(QueryDto query);
 
-        Task<PagedResultDto<ContestCardDto>> GetTeacherContestsAsync(
+        Task<ApiResponse<PagedResultDto<ContestCardDto>>> GetTeacherContestsAsync(
             Guid teacherId,
             QueryDto query);
 
-        Task<PagedResultDto<ContestCardDto>> GetStudentAvailableContestsAsync(
+        Task<ApiResponse<PagedResultDto<ContestCardDto>>> GetStudentAvailableContestsAsync(
             Guid studentId,
             QueryDto query);
 
-        Task<List<ContestLeaderBoardDto>> GetLeaderboardAsync(Guid contestId);
+        Task<ApiResponse<List<ContestLeaderBoardDto>>> GetLeaderboardAsync(Guid contestId);
 
-        Task<ContestAnalyticsDto> GetAnalyticsAsync(Guid contestId);
+        Task<ApiResponse<ContestAnalyticsDto>> GetAnalyticsAsync(Guid contestId);
     }
 }

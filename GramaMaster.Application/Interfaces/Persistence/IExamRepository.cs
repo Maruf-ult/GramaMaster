@@ -1,4 +1,4 @@
-﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
 using System;
@@ -24,6 +24,7 @@ namespace GramaMaster.Application.Interfaces.Persistence
         Task<List<ExamAttempt>> GetLeaderboardAsync(Guid contestId,QueryDto query);
 
         Task<bool> HasStudentAlreadyTakenContestAsync(Guid studentId, Guid contestId);
-       
+        Task AddAsync(ExamAttempt examAttempt);
+        Task<AnswerSubmission?> GetAnswerSubmissionByIdAsync(Guid answerSubmissionId);
     }
 }

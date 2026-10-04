@@ -9,20 +9,20 @@ namespace GramaMaster.Application.Interfaces.Services
 {
     public interface IExamService
     {
-        Task<ExamAttemptDto> StartExamAsync(
+        Task<ApiResponse<ExamAttemptDto>> StartExamAsync(
             Guid studentId,
             StartExamDto dto);
 
-        Task<ExamResultDto> SubmitExamAsync(
+        Task<ApiResponse<ExamResultDto>> SubmitExamAsync(
             Guid studentId,
             SubmitExamDto dto);
 
-        Task<ExamAttemptDto> GetAttemptAsync(Guid attemptId);
+        Task<ApiResponse<ExamAttemptDto>> GetAttemptAsync(Guid studentId,Guid attemptId);
 
-        Task<List<LeaderboardDto>> GetLeaderboardAsync(
+        Task<ApiResponse<List<LeaderboardDto>>> GetLeaderboardAsync(
             Guid contestId,
             QueryDto query);
 
-        Task<List<AnswerReviewDto>> ReviewAnswersAsync(Guid attemptId);
+        Task<ApiResponse<List<AnswerReviewDto>>> ReviewAnswersAsync(Guid attemptId);
     }
 }

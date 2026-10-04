@@ -1,4 +1,4 @@
-﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Infrastructure.Data;
@@ -31,12 +31,18 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
         {
             return await _dbContext.ExamAttempts
                 .Include(x => x.AnswerSubmissions)
-                   .ThenInclude(x => x.Problem)
-                      .ThenInclude(x => x.ProblemOptions)
+                    .ThenInclude(x => x.Problem)
+                        .ThenInclude(x => x.ProblemOptions)
+
+                .Include(x => x.Contest)
+                    .ThenInclude(x => x.Problems)
+
                 .Include(x => x.Student)
-                   .ThenInclude(x => x.User)
-                 .Include(x => x.Contest)
-                .FirstOrDefaultAsync(x => x.Id == attemptId && !x.IsDeleted);
+                    .ThenInclude(x => x.User)
+
+                .FirstOrDefaultAsync(x =>
+                    x.Id == attemptId &&
+                    !x.IsDeleted);
         }
 
         public async Task<AnswerSubmission?> GetAnswerAsync(Guid attemptId, Guid problemId)
@@ -119,8 +125,19 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 !x.IsDeleted);
 
         }
+        public async Task AddAsync(ExamAttempt examAttempt)
+        {
+            await _dbContext.ExamAttempts.AddAsync(examAttempt);
+        }
 
-      
-
+        public async Task<AnswerSubmission?> GetAnswerSubmissionByIdAsync(Guid answerSubmissionId)
+        {
+            return await _dbContext.AnswerSubmissions
+                .Include(x => x.Problem)
+                    .ThenInclude(p => p.ProblemOptions)
+                .Include(x => x.Problem)
+                    .ThenInclude(p => p.Topic)
+                .FirstOrDefaultAsync(x => x.Id == answerSubmissionId && !x.IsDeleted);
+        }
     }
 }

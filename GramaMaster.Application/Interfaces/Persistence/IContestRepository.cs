@@ -1,4 +1,4 @@
-﻿    using GramaMaster.Application.DTOs.Common;
+    using GramaMaster.Application.DTOs.Common;
     using GramaMaster.Domain.Entities;
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
 
     namespace GramaMaster.Application.Interfaces.Persistence
     {
-        public interface IContestRepository
+        public interface IContestRepository : IGenericRepository<Contest>
         {
         Task<List<Contest>> GetGlobalContestsAsync(QueryDto query);
         Task<List<Contest>> GetTeamContestsAsync(Guid teamId,QueryDto query);

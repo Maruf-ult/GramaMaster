@@ -41,18 +41,23 @@ namespace GramaMaster.Application.Services
                 return ApiResponse<TopicDto>.ErrorResponse(errors, "Validation Failed");
             }
             var curriculumn = await _unitOfWork.Curriculums.FirstOrDefaultAsync(x => x.Id == dto.CurriculumId);
-            
-            var newTopic = new TopicDto
+
+            var topic = new Topic
             {
                 Id = Guid.NewGuid(),
                 CurriculumId = dto.CurriculumId,
-                Curriculum = curriculumn.Name,
-                Description = dto.Description,
                 Name = dto.Name,
-                GrammarRuleCount = 0,
-                ProblemCount = 0
+                Description = dto.Description
             };
-            return ApiResponse<TopicDto>.SuccessResponse(newTopic, "Topic created successfully");
+
+            await _unitOfWork.Topics.AddAsync(topic);
+            await _unitOfWork.SaveChangesAsync();
+
+            var topicDto = _mapper.Map<TopicDto>(topic);
+
+            return ApiResponse<TopicDto>.SuccessResponse(
+                topicDto,
+                "Topic created successfully");
         }
 
         public async Task<ApiResponse<bool>> UpdateTopicAsync( Guid topicId,UpdateTopicDto dto)
@@ -77,7 +82,7 @@ namespace GramaMaster.Application.Services
             topic.Name = dto.Name;
             topic.Description = dto.Description;
 
-            await _unitOfWork.Topics.AddAsync(topic);
+             _unitOfWork.Topics.Update(topic);
             await _unitOfWork.SaveChangesAsync();
 
             return ApiResponse<bool>.SuccessResponse(true, "Topic updated successfully");

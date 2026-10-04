@@ -1,4 +1,6 @@
 ﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.DTOs.Student;
+using GramaMaster.Application.DTOs.Teacher;
 using GramaMaster.Application.DTOs.Users; 
 using GramaMaster.Domain.Enums;
 
@@ -6,16 +8,31 @@ namespace GramaMaster.Application.Interfaces.Services
 {
     public interface IUserService
     {
-        // Admin: Get all users with search, filter by role, pagination
-        Task<ApiResponse<PagedResultDto<UserDto>>> GetUsersAsync(QueryDto query, UserRole? role = null);
+        Task<ApiResponse<UserDto>> GetByIdAsync(Guid id);
+        Task<ApiResponse<UserDto>> GetByEmailAsync(string email);
+        Task<ApiResponse<bool>> ExistsByEmailAsync(string email);
+        Task<ApiResponse<List<UserDto>>> GetUsersAsync(
+            QueryDto query);
+        Task<ApiResponse<List<UserDto>>> GetUsersByRoleAsync(
+            UserRole role,
+            QueryDto query);
+        Task<ApiResponse<List<UserDto>>> GetTeachersAsync(
+            QueryDto query);
 
-        // Admin / User: Get user profile by ID
-        Task<ApiResponse<UserDto>> GetByIdAsync(Guid userId);
+        Task<ApiResponse<List<UserDto>>> GetStudentsAsync(
+            QueryDto query);
 
-        // Admin: Activate / Deactivate user account (e.g. ban spammer or teacher approval)
-        Task<ApiResponse<bool>> ToggleUserStatusAsync(Guid userId, bool isActive);
+        Task<ApiResponse<TeacherProfileDto>> GetTeacherAsync(
+            Guid userId);
 
-        // Admin: Delete user
-        Task<ApiResponse<bool>> DeleteUserAsync(Guid userId);
+        Task<ApiResponse<StudentProfileDto>> GetStudentAsync(
+            Guid userId);
+
+        Task<ApiResponse<bool>> UpdateStatusAsync(
+            Guid userId,
+            bool isActive);
+
+        Task<ApiResponse<bool>> DeleteAsync(
+            Guid userId);
     }
 }

@@ -2,7 +2,11 @@ using FluentValidation;
 using GramaMaster.API.ExceptionHandler;
 using GramaMaster.API.Extensions;
 using GramaMaster.Application.Extensions;
+using GramaMaster.Application.Interfaces.Persistence;
+using GramaMaster.Application.Interfaces.Services;
+using GramaMaster.Application.Services;
 using GramaMaster.Infrastructure.Data;
+using GramaMaster.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace GramaMaster.API;
@@ -28,6 +32,12 @@ public class Program
             options.UseNpgsql(
                 builder.Configuration.GetConnectionString("DbCon"));
         });
+
+        // Persistence
+        builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+        // Application Services
+        builder.Services.AddScoped<IUserService, UserService>();
 
         var app = builder.Build();
 
