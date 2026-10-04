@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|d:\\gramamaster\\gramamaster.application\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA12E9D-499F-46A3-A38A-0B98783EA320}|GramaMaster.Application\\GramaMaster.Application.csproj|solutionrelative:gramamaster.application\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\curriculumnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\curriculumnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\curriculumnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|solutionrelative:gramamaster.api\\controllers\\curriculumnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1910EBEC-3FEB-BA90-3FF6-A356C657F4E4}|GramaMaster.API\\GramaMaster.API.csproj|d:\\gramamaster\\gramamaster.api\\controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -147,45 +143,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TeamService.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\TeamService.cs",
-              "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\TeamService.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.Application\\Services\\TeamService.cs",
-              "RelativeToolTip": "GramaMaster.Application\\Services\\TeamService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwL8AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T09:02:56.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TopicsController.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TopicsController.cs",
-              "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\TopicsController.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TopicsController.cs",
-              "RelativeToolTip": "GramaMaster.API\\Controllers\\TopicsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowIYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:18:35.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeamsController.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TeamsController.cs",
-              "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\TeamsController.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TeamsController.cs",
-              "RelativeToolTip": "GramaMaster.API\\Controllers\\TeamsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:18:14.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TeachersController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TeachersController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\TeachersController.cs",
@@ -198,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\StudentsController.cs",
@@ -211,20 +168,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CurriculumnsController.cs",
-              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\CurriculumnsController.cs",
-              "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\CurriculumnsController.cs",
-              "ToolTip": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\CurriculumnsController.cs",
-              "RelativeToolTip": "GramaMaster.API\\Controllers\\CurriculumnsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\TeamsController.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "GramaMaster.API\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:15:54.957Z",
+              "WhenOpened": "2026-10-04T08:18:14.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "TopicsController.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TopicsController.cs",
+              "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\TopicsController.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\TopicsController.cs",
+              "RelativeToolTip": "GramaMaster.API\\Controllers\\TopicsController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwHUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T08:18:35.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProblemsController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\ProblemsController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\ProblemsController.cs",
@@ -232,8 +202,7 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\ProblemsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:17:20.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:17:20.009Z"
             },
             {
               "$type": "Document",
@@ -250,7 +219,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "CurriculumnsController.cs",
+              "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\CurriculumnsController.cs",
+              "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\CurriculumnsController.cs",
+              "ToolTip": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\CurriculumnsController.cs",
+              "RelativeToolTip": "GramaMaster.API\\Controllers\\CurriculumnsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T08:15:54.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PracticesController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\PracticesController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\PracticesController.cs",
@@ -258,12 +239,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\PracticesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:16:57.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:16:57.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "GrammarsController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\GrammarsController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\GrammarsController.cs",
@@ -271,12 +251,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\GrammarsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:16:40.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:16:40.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ExamsController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\ExamsController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\ExamsController.cs",
@@ -284,12 +263,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\ExamsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:16:19.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:16:19.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "ContestsController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\ContestsController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\ContestsController.cs",
@@ -297,12 +275,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\ContestsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:15:10.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:15:10.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ChatController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\ChatController.cs",
@@ -310,12 +287,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:14:34.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:14:34.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\AuthController.cs",
@@ -323,12 +299,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:13:53.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:13:53.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "AnalyticsController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\AnalyticsController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\AnalyticsController.cs",
@@ -336,12 +311,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\AnalyticsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:13:30.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:13:30.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "AIController.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\Controllers\\AIController.cs",
               "RelativeDocumentMoniker": "GramaMaster.API\\Controllers\\AIController.cs",
@@ -349,12 +323,11 @@
               "RelativeToolTip": "GramaMaster.API\\Controllers\\AIController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T08:12:59.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T08:12:59.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "GramaMaster.API.csproj",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.API\\GramaMaster.API.csproj",
               "RelativeDocumentMoniker": "GramaMaster.API\\GramaMaster.API.csproj",
@@ -366,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "IContestService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IContestService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IContestService.cs",
@@ -378,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\AuthService.cs",
@@ -390,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "ProblemService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\ProblemService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\ProblemService.cs",
@@ -402,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "PracticeService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\PracticeService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\PracticeService.cs",
@@ -414,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ExamService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\ExamService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\ExamService.cs",
@@ -426,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "CurriculumnService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\CurriculumnService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\CurriculumnService.cs",
@@ -438,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "ContestService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\ContestService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\ContestService.cs",
@@ -450,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "ChatService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\ChatService.cs",
@@ -462,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "IChatService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IChatService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IChatService.cs",
@@ -474,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IAuthService.cs",
@@ -486,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "IProblemRepository.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Persistence\\IProblemRepository.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Persistence\\IProblemRepository.cs",
@@ -498,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "ProblemRepository.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Infrastructure\\Persistence\\Repositories\\ProblemRepository.cs",
               "RelativeDocumentMoniker": "GramaMaster.Infrastructure\\Persistence\\Repositories\\ProblemRepository.cs",
@@ -510,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "IAnalyticsService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Interfaces\\Services\\IAnalyticsService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Interfaces\\Services\\IAnalyticsService.cs",
@@ -522,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "AnalyticsService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\AnalyticsService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\AnalyticsService.cs",
@@ -534,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "AiService.cs",
               "DocumentMoniker": "D:\\GramaMaster\\GramaMaster.Application\\Services\\AiService.cs",
               "RelativeDocumentMoniker": "GramaMaster.Application\\Services\\AiService.cs",

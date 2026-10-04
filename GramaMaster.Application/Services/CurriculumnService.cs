@@ -24,7 +24,7 @@ namespace GramaMaster.Application.Services
         public async Task<ApiResponse<List<CurriculumDto>>> GetAllAsync()
         {
             var curriclums = await _unitOfWork.Curriculums.GetAllAsync();
-            if (curriclums == null)
+            if (curriclums == null || !curriclums.Any())
             {
                 return ApiResponse<List<CurriculumDto>>.ErrorResponse(new List<String> { "No curriculums found" }, "Request Failed");
             }
