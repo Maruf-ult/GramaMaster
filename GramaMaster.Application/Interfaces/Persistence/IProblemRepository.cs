@@ -1,4 +1,4 @@
-﻿using GramaMaster.Domain.Entities;
+using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -6,10 +6,9 @@ using System.Text;
 
 namespace GramaMaster.Application.Interfaces.Persistence
 {
-    public interface IProblemRepository
+    public interface IProblemRepository : IGenericRepository<Problem>
     {
 
-        Task<List<Problem>> GetAllAsync();
         Task<List<Problem>> GetByTopicAsync(Guid topicId);
 
         Task<List<Problem>> GetPracticeProblemsAsync(
@@ -24,8 +23,6 @@ namespace GramaMaster.Application.Interfaces.Persistence
             DifficultyType difficulty,
             int count);
         Task<Problem?> GetProblemByProblemId(Guid problemId);
-
-        Task AddAsync(Problem problem);
 
         Task<List<Problem>> GetContestProblemsAsync(Guid contestId);
 

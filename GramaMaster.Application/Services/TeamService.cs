@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FluentValidation;
 using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Team;
@@ -21,7 +21,12 @@ namespace GramaMaster.Application.Services
         private readonly IValidator<JoinTeamDto> _joinTeamValidator;
 
 
-        public TeamService(IMapper mapper,IUnitOfWork unitOfWork,IValidator<CreateTeamDto>?createTeamValidator,IValidator<UpdateTeamDto>?updateTeamValidator,IValidator<JoinTeamDto>? joinTeamValidator  )
+        public TeamService(
+            IMapper mapper,
+            IUnitOfWork unitOfWork,
+            IValidator<CreateTeamDto>? createTeamValidator = null,
+            IValidator<UpdateTeamDto>? updateTeamValidator = null,
+            IValidator<JoinTeamDto>? joinTeamValidator = null)
         {
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
             _mapper = mapper;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GramaMaster.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d95456930f31f0be6876f60a1658cdea0e2126c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18c99c9379019348c7983f7a489c5a39bbd8b262")]
 [assembly: System.Reflection.AssemblyProductAttribute("GramaMaster.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GramaMaster.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

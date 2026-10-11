@@ -145,7 +145,7 @@ namespace GramaMaster.Application.Services
             var attempts = await _unitOfWork.Students.GetStudentAttemptsWithAnswersAsync(studentId);
             if (attempts == null || !attempts.Any())
             {
-                return ApiResponse<List<PerformanceTrendDto>>.ErrorResponse(new List<string> { "No attempts found for the student." }, "No data available.");>
+                return ApiResponse<List<PerformanceTrendDto>>.ErrorResponse(new List<string> { "No attempts found for the student." }, "No data available.");
             }
 
             var dto = attempts

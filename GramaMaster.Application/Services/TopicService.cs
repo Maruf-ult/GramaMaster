@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FluentValidation;
 using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Topics;
@@ -20,7 +20,11 @@ namespace GramaMaster.Application.Services
         private readonly IValidator<CreateTopicDto> _createTopicValidator;
         private readonly IValidator<UpdateTopicDto> _updateTopicValidator;
 
-        public TopicService(IUnitOfWork unitOfWork,IMapper mapper,IValidator<CreateTopicDto>createTopicValidator,IValidator<UpdateTopicDto>?updateTopicValidator)
+        public TopicService(
+            IUnitOfWork unitOfWork,
+            IMapper mapper,
+            IValidator<CreateTopicDto>? createTopicValidator = null,
+            IValidator<UpdateTopicDto>? updateTopicValidator = null)
         {
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
             _mapper = mapper;

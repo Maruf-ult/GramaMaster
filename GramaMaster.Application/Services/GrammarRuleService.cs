@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FluentValidation;
 using GramaMaster.Application.Common.Mappings;
 using GramaMaster.Application.DTOs.Common;
@@ -21,7 +21,11 @@ namespace GramaMaster.Application.Services
         private readonly IValidator<CreateGrammarRuleDto> _createGrammarRuleValidator;
         private readonly IValidator<UpdateGrammarRuleDto> _updateGrammarRuleValidator;
 
-        public GrammarRuleService(IMapper mapper,IUnitOfWork unitOfWork,IValidator<CreateGrammarRuleDto> createGrammarRuleValidator,IValidator<UpdateGrammarRuleDto>?updateGrammarRuleValidator)
+        public GrammarRuleService(
+            IMapper mapper,
+            IUnitOfWork unitOfWork,
+            IValidator<CreateGrammarRuleDto>? createGrammarRuleValidator = null,
+            IValidator<UpdateGrammarRuleDto>? updateGrammarRuleValidator = null)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -44,6 +48,10 @@ namespace GramaMaster.Application.Services
                 return ApiResponse<GrammarRuleDto>.ErrorResponse(errors, "Validation Failed");
             }
             var topic = await _unitOfWork.Topics.GetByIdAsync(dto.TopicId);
+            if (topic == null)
+            {
+                return ApiResponse<GrammarRuleDto>.ErrorResponse(new[] { "Topic not found" }, "Request Failed");
+            }
 
             var newGrammerRule = new GrammarRule
             {
@@ -56,6 +64,7 @@ namespace GramaMaster.Application.Services
                 CreatedAt = DateTime.UtcNow
             };
 
+            await _unitOfWork.GrammarRules.AddAsync(newGrammerRule);
             await _unitOfWork.SaveChangesAsync();
             GrammarRuleDto grama = _mapper.Map<GrammarRuleDto>(newGrammerRule);
             return ApiResponse<GrammarRuleDto>.SuccessResponse(grama, "Grammer Rule created successfully");

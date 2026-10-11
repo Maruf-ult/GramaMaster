@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FluentValidation;
 using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Exams;
@@ -17,7 +17,7 @@ namespace GramaMaster.Application.Services
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IValidator<SubmitExamDto> _submitExamValidator;
-        public ExamService(IMapper mapper,IUnitOfWork unitOfWork,IValidator<SubmitExamDto>submitExamValidator)
+        public ExamService(IMapper mapper, IUnitOfWork unitOfWork, IValidator<SubmitExamDto>? submitExamValidator = null)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -168,7 +168,7 @@ namespace GramaMaster.Application.Services
                     Id = Guid.NewGuid(),
                     ExamAttemptId = attempt.Id,
                     ProblemId = problem.Id,
-                    StudentAnswer = answer.StudentAnswer,
+                    StudentAnswer = answer.StudentAnswer ?? string.Empty,
                     IsCorrect = isCorrect,
                     AIExplanation = problem.Explanation
                 };
@@ -179,8 +179,8 @@ namespace GramaMaster.Application.Services
                 {
                     ProblemId = problem.Id,
                     Question = problem.QuestionText,
-                    StudentAnswer = answer.StudentAnswer,
-                    CorrectAnswer = problem.CorrectAns,
+                    StudentAnswer = answer.StudentAnswer ?? string.Empty,
+                    CorrectAnswer = problem.CorrectAns ?? string.Empty,
                     IsCorrect = isCorrect,
                     AIExplanation = problem.Explanation
                 });

@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FluentValidation;
 using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Exams;
@@ -22,11 +22,15 @@ namespace GramaMaster.Application.Services
         private readonly IValidator<StartPracticeDto> _startPracticeValidator;
         private readonly IValidator<PracticeSubmissionDto> _practiceSubmissionValidator;
 
-        public PracticeService(IMapper mapper,IUnitOfWork unitOfWork,IValidator<StartPracticeDto> startPracticeValidator,IValidator<PracticeSubmissionDto> practiceSubmissionValidator)
+        public PracticeService(
+            IMapper mapper,
+            IUnitOfWork unitOfWork,
+            IValidator<StartPracticeDto>? startPracticeValidator = null,
+            IValidator<PracticeSubmissionDto>? practiceSubmissionValidator = null)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
-            _startPracticeValidator = startPracticeValidator ;
+            _startPracticeValidator = startPracticeValidator ?? new StartPracticeValidator();
             _practiceSubmissionValidator = practiceSubmissionValidator ?? new PracticeSubmissionValidator();
         }
 
@@ -78,7 +82,7 @@ namespace GramaMaster.Application.Services
                 .Select(option => new ProblemOptionDto
                 {
                     Id = option.Id,
-                    OptionText = option.OptionText
+                    OptionText = option.OptionText ?? string.Empty
                 })
                 .ToList()
 

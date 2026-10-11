@@ -1,4 +1,4 @@
-﻿using GramaMaster.Application.DTOs.Common;
+using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.Interfaces.Persistence;
 using GramaMaster.Domain.Entities;
 using GramaMaster.Domain.Enums;
@@ -19,7 +19,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<List<Problem>> GetAllAsync()
+        public override async Task<List<Problem>> GetAllAsync()
         {
             return await _dbContext.Problems
                 .Include(x => x.Topic)
@@ -168,7 +168,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
             return teamMembers.Count > 0 ? sum / teamMembers.Count : 0;
         }
 
-        public async Task AddAsync(Problem problem)
+        public override async Task AddAsync(Problem problem)
         {
             problem.CreatedAt = DateTime.UtcNow;
             await _dbContext.AddAsync(problem);

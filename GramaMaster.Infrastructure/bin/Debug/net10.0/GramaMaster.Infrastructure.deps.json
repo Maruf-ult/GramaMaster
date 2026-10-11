@@ -11,7 +11,8 @@
           "GramaMaster.Application": "1.0.0",
           "GramaMaster.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.9",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.2"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.2",
+          "System.IdentityModel.Tokens.Jwt": "8.6.1"
         },
         "runtime": {
           "GramaMaster.Infrastructure.dll": {}
@@ -251,6 +252,18 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/8.6.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
+          "Microsoft.IdentityModel.Tokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "8.6.1.0",
+            "fileVersion": "8.6.1.60307"
+          }
+        }
+      },
       "GramaMaster.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.2.0",
@@ -428,6 +441,13 @@
       "sha512": "sha512-PsNYgPOSW41Xx19gin7y4EdZAPteWr9Cb01XkdObxOsPzi+mgBupBEN7J7+erXFsROPOILM7MlIoO9QzL8+LGQ==",
       "path": "npgsql.entityframeworkcore.postgresql/10.0.2",
       "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.2.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/8.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXL1Tj+pizswtHHPiQyNumrTo8XOLX7SoTm7Bz00/DyiIoG2H/kQItoajSvr1MYtvDNXveqULsoWDoJFI3aHzQ==",
+      "path": "system.identitymodel.tokens.jwt/8.6.1",
+      "hashPath": "system.identitymodel.tokens.jwt.8.6.1.nupkg.sha512"
     },
     "GramaMaster.Application/1.0.0": {
       "type": "project",

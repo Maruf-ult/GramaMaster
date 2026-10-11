@@ -125,7 +125,7 @@ namespace GramaMaster.Infrastructure.Persistence.Repositories
                 !x.IsDeleted);
 
         }
-        public async Task AddAsync(ExamAttempt examAttempt)
+        public override async Task AddAsync(ExamAttempt examAttempt)
         {
             await _dbContext.ExamAttempts.AddAsync(examAttempt);
         }

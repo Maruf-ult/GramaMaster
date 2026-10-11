@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using FluentValidation;
 using GramaMaster.Application.DTOs.Common;
 using GramaMaster.Application.DTOs.Problems;
@@ -20,7 +20,11 @@ namespace GramaMaster.Application.Services
         private readonly IValidator<CreateProblemDto> _createProblemValidator;
         private readonly IValidator<UpdateProblemDto> _updateProblemValidator;
 
-        public ProblemService(IMapper mapper, IUnitOfWork unitOfWork, IValidator<CreateProblemDto> createProblemValidator, IValidator<UpdateProblemDto> updateProblemValidator )
+        public ProblemService(
+            IMapper mapper,
+            IUnitOfWork unitOfWork,
+            IValidator<CreateProblemDto>? createProblemValidator = null,
+            IValidator<UpdateProblemDto>? updateProblemValidator = null)
         {
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
             _mapper = mapper;
@@ -54,34 +58,35 @@ namespace GramaMaster.Application.Services
             }
 
 
-            var Problem = new Problem
+            var problem = new Problem
             {
                 Id = Guid.NewGuid(),
                 TopicId = dto.TopicId,
+                Topic = topic,
                 ContestId = dto.ContestId,
+                CreatedByUserId = userId,
+                CreatedByUser = user,
                 ProblemType = dto.ProblemType,
                 Difficulty = dto.Difficulty,
                 QuestionText = dto.QuestionText,
                 CorrectAns = dto.CorrectAns,
                 Explanation = dto.Explanation,
-                IsAiGenerated = false
+                IsAiGenerated = false,
+                CreatedAt = DateTime.UtcNow
             };
-
-            var problem = await _unitOfWork.Problems.GetProblemByProblemId(Problem.Id);
 
             foreach (var optionDto in dto.Options)
             {
                 var option = new ProblemOptions
                 {
                     Id = Guid.NewGuid(),
-                    ProblemId = Problem.Id,
+                    ProblemId = problem.Id,
                     OptionText = optionDto.OptionText,
                     Problem = problem,
                     IsCorrect = optionDto.IsCorrect
                 };
-                Problem.ProblemOptions.Add(option);
+                problem.ProblemOptions.Add(option);
             }
-            problem.CreatedAt = DateTime.UtcNow;
 
             await _unitOfWork.Problems.AddAsync(problem);
             await _unitOfWork.SaveChangesAsync();
@@ -96,7 +101,7 @@ namespace GramaMaster.Application.Services
                 IsAiGenerated = problem.IsAiGenerated
             };
 
-            return ApiResponse<ProblemDto>.SuccessResponse( result, "Problem created successfully");
+            return ApiResponse<ProblemDto>.SuccessResponse(result, "Problem created successfully");
 
 
         }

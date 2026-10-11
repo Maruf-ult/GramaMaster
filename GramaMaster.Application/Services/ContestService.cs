@@ -96,7 +96,7 @@ namespace GramaMaster.Application.Services
                 foreach (var problem in problems)
                 {
                     problem.ContestId = contest.Id;
-                    await _unitOfWork.Problems.AddAsync(problem);
+                    _unitOfWork.Problems.Update(problem);
                 }
             }
 
@@ -162,7 +162,7 @@ namespace GramaMaster.Application.Services
             foreach (var problem in currentProblems.Where(p => !targetProblemIds.Contains(p.Id)))
             {
                 problem.ContestId = null;
-                _unitOfWork.Problems.AddAsync(problem);
+                _unitOfWork.Problems.Update(problem);
             }
 
             // Attach newly selected problems
@@ -174,7 +174,7 @@ namespace GramaMaster.Application.Services
                 foreach (var problem in newProblems)
                 {
                     problem.ContestId = contest.Id;
-                    _unitOfWork.Problems.AddAsync(problem);
+                    _unitOfWork.Problems.Update(problem);
                 }
             }
 

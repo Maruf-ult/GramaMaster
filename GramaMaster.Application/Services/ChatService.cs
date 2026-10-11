@@ -98,7 +98,7 @@ namespace GramaMaster.Application.Services
                 Response = aiReply,
                 CreatedAt = aiMessage.CreatedAt
             };
-            return ApiResponse<ChatResponseDto>.SuccessResponse(ndto, "Message sent and AI response generated successfully.");>
+            return ApiResponse<ChatResponseDto>.SuccessResponse(ndto, "Message sent and AI response generated successfully.");
         }
 
         public async Task<ApiResponse<List<ChatHistoryDto>>> GetHistoryAsync(Guid studentId)
