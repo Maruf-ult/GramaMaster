@@ -16,3 +16,5 @@ D:\GramaMaster\GramaMaster.Infrastructure\obj\Debug\net10.0\GramaMaster.Infrastr
 D:\GramaMaster\GramaMaster.Infrastructure\obj\Debug\net10.0\refint\GramaMaster.Infrastructure.dll
 D:\GramaMaster\GramaMaster.Infrastructure\obj\Debug\net10.0\GramaMaster.Infrastructure.pdb
 D:\GramaMaster\GramaMaster.Infrastructure\obj\Debug\net10.0\ref\GramaMaster.Infrastructure.dll
+D:\GramaMaster\GramaMaster.Infrastructure\bin\Debug\net10.0\GramaMaster.Infrastructure.runtimeconfig.json
+D:\GramaMaster\GramaMaster.Infrastructure\obj\Debug\net10.0\GramaMaster.Infrastructure.genruntimeconfig.cache

@@ -1,4 +1,4 @@
-﻿using GramaMaster.Domain.Entities;
+using GramaMaster.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -49,11 +49,6 @@ namespace GramaMaster.Infrastructure.Configurations
 
             builder.Property(x => x.IsAiGenerated)
                 .IsRequired();
-
-            builder.HasMany(x => x.ProblemOptions)
-                .WithOne(x => x.Problem)
-                .HasForeignKey(x => x.ProblemId)
-                .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasMany(x => x.ProblemOptions)
                 .WithOne(x => x.Problem)

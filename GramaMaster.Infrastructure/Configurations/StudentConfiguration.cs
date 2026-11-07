@@ -1,4 +1,4 @@
-﻿using GramaMaster.Domain.Entities;
+using GramaMaster.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -28,7 +28,7 @@ namespace GramaMaster.Infrastructure.Configurations
                 .HasMaxLength(300)
                 .IsRequired();
 
-            builder.Property(x => x.Curriculum)
+            builder.Property(x => x.CurriculumType)
                 .IsRequired()
                 .HasConversion<string>();
 

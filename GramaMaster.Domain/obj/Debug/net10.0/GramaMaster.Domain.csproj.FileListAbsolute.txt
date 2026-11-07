@@ -1,6 +1,7 @@
 D:\GramaMaster\GramaMaster.Domain\bin\Debug\net10.0\GramaMaster.Domain.deps.json
 D:\GramaMaster\GramaMaster.Domain\bin\Debug\net10.0\GramaMaster.Domain.dll
 D:\GramaMaster\GramaMaster.Domain\bin\Debug\net10.0\GramaMaster.Domain.pdb
+D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.csproj.AssemblyReference.cache
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.AssemblyInfoInputs.cache
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.AssemblyInfo.cs
@@ -10,4 +11,3 @@ D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.dll
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\refint\GramaMaster.Domain.dll
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.pdb
 D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\ref\GramaMaster.Domain.dll
-D:\GramaMaster\GramaMaster.Domain\obj\Debug\net10.0\GramaMaster.Domain.csproj.AssemblyReference.cache
